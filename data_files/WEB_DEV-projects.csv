@@ -1,0 +1,20 @@
+id,title,parts,n_parts,date
+63a2fd7188994317227ed875,Project with HTML,['Time Table Project with HTML'],1,23-Jan-2023
+63a2fdb18899437d347edbb6,Project - HTML & CSS,"['Project With Mock up with design -1', 'Project With Mock up with design - 2', 'Project With Mock up with design -3 (Assignment )', 'Project With Mock up with design - 4 (Assignment )', 'Project With Mock up with design - 5 (Assignment )']",5,01-Feb-2023
+63a2fdd788994304537edbbf,Project - JavaScript DOM,"['Project 1 - Showing all the Event and How to Target', 'Project 2 - Background Color Changer', 'Project 3 - Based on Figma']",3,21-Feb-2023
+63a2fdfd8899436cfb7edbc6,Project - REST API,"['RestAPI - Part 1', 'RestAPI - Part 2', 'RestAPI - Part 3']",3,27-Feb-2023
+63a2fe478899432b467edbd2,Mini Project - CRUD,"['Creating User', 'Fetching All Users', 'Updating User', 'Deleting User']",4,09-May-2023
+63a2fe6c88994359bd7edbd8,Project Auth,"['Basic Authentication Application - Part 1', 'Basic Authentication Application - Part 2', 'Basic Authentication Application - Part 3']",3,12-May-2023
+63a2fe8a88994304137edbe0,Project Backend - Introduction,"['What we are about to build', 'Features of LMS', 'Project Setup', 'Wireframe']",4,15-May-2023
+63a2feb488994313077edbee,Project Setup - Backend,"['Basics Tools Required', 'Prettier, ESLint, ES7 and Shortcuts', 'Project Folder Structure']",3,17-May-2023
+63a2fed988994308167edf2e,Project - Features,"['Authentication', 'Course Listing', 'Payment gateway integration', 'Learning Module', 'Admin']",5,18-May-2023
+63a2ff1588994385497ee270,Project - Authentication,"['Login API', 'Sign Up API', 'Social Login API', 'Forgot Password', 'Verification Email', 'Update Profile API', 'Update Profile Picture', 'Get profile API']",8,19-May-2023
+63a2ff598899431dc77ee551,Project - Course Listing,"['List Courses API', 'Course Detail API', 'List Category API', 'List Instructors API']",4,27-May-2023
+63a2ff7e889943562c7ee557,Payment Gateway Integration,"['Razorpay Checkout Integration', 'WebHook Integration']",2,31-May-2023
+63a2ffa3c9413a3b02dd326b,Learning Module,"['List Enrolled Courses', 'Check if Enrolled', 'List Course Content', 'Show Lectures', 'List Resources']",5,01-June-2023
+63a2ffd5c9413a33f2dd3275,Project - Admin,"['Creating Course', 'Updating Course', 'Deleting Course', 'Creating Category ', 'Updating Category', 'Deleting Category', 'Creating Instructor', 'Updating Instructor', 'Deleting Instructor', 'Create User', 'Update User', 'Delete User', 'Sales / Analytics']",13,6-June-2023
+63a30059c9413a5762dd3b06,Project Frontend - Introduction,"['Introduction to Project ', 'Pages a Project will have', 'Project Setup', 'Walking through with different thought process']",4,23-July-2023
+63a3009fc9413a9229dd3df8,Project Frontend - Setup,"['Basics Tools Required', 'Prettier, ESLint, ES7 and Shortcuts', 'Project Folder Structure']",3,25-July-2023
+63a300bdc9413a6eafdd3dfc,Project Frontend - Features,"['User Side ', 'Learner Side ', 'Admin Side']",3,26-July-2023
+63a300e8c9413a5fb2dd3e03,Project Frontend - Components and Pages - 1,"['Home Page ', 'Signup and Login Page', 'User Profile Page - Part 1', 'User Profile Page - Part 2', 'All Course List Page - Part 1', 'All Course List Page - Part 2', 'Not Found Page', 'Verification Page', 'Admin Dashboard Pge']",9,27-July-2023
+63a3013cc9413a4eaadd3e12,Project Frontend - Components and Pages - 2,"['All User List Page', 'All Course List Page', 'User Side Content Play Page - Part 1', 'User Side Content Play Page - Part 2', 'Subscription Page', 'Sales Page']",6,5-Aug-2023

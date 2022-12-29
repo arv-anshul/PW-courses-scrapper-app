@@ -1,0 +1,6 @@
+id,title,parts,n_parts,date
+63a2fc0b88994367a27ed854,Python Project :- Web Scrapping,"['Web Scrapping introduction', 'Integration With Web Portal.', 'Integration With Rest Api, Web Portal And Mongo Db', 'Deployment On Web Portal On Aws , Azure , Aws']",4,18-Feb-2023
+63a2fc938899432e157ed858,Python Project : - Image Scrapper,"['Image Scrapping Introduction', 'Image Scrapping Deployment', 'Integration With Rest Api, Web Portal And Mongo Db', 'Deployment On Web Portal On Aws , Azure']",4,19-Feb-2023
+63a2fcbf8899431cac7ed85c,ML Projects,"['Fault detection in wafers based on sensor data.', 'Cement strength reg.', 'Credit card fraud.', 'Forest cover classification', 'Fraud detection', 'Income prediction', 'Mushroom classifier', 'Phishing classifier', 'Thyroid detection', 'Visibility climate']",10,6-May-2023
+63a2fd1188994349297ed866,Computer Vision Projects,"['Object Tracking Project', 'Image Classification with SOTA CNNs', 'Image to Text using OCRs', 'Vision based Attendance System', 'Sign Language Detection', 'Shredder Systems']",6,16-July-2023
+63a2fd3c88994316d97ed86d,NLP Projects,"['Movie Review using BERT', 'NER using BERT', 'POS Tagging with BERT', 'Text Generation GPT2', 'Question Answering with SQUAD', 'Machine Translation with Transformers', 'Paraphrasing with BART', 'Text2Speech', 'Speech2Text', 'SpellCorrector']",10,6-Aug-2023

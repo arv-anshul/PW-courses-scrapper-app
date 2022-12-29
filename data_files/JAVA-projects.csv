@@ -1,0 +1,12 @@
+id,title,parts,n_parts,date
+63a2ff55889943fd307ee54f,OOPs Project,['Core Java Guesser Game project(Console based) '],1,31-Jan-2023
+63a2ff65889943f8727ee552,Core Java,['Hospital Management App(Console Based)'],1,22-Mar-2023
+63a2ff73889943b26b7ee555,Project - JDBC,['CRUD operation applicationin layered approach of Student table using Factory Desgin Pattern'],1,08-April-2023
+63a2ff8088994328f87ee558,Project - JEE,"['Building CustomerRelationship manager System using JDBC,Servlets and HTML']",1,21-April-2023
+63a2ff8b88994353a27ee559,Project - Hibernate,"['Building CustomerRelationship manager System using ORM, Servlets and HTML']",1,04-May-2023
+63a2ff98c9413a3d30dd326a,Spring Boot Project,['Building Student management System using SpringBoot'],1,28-July-2023
+63a2ffa4c9413aa0cedd326c,Spring Boot Project,['Building CustomerRelationship manager System using SpringMVC and Thymleaf'],1,29-July-2023
+63a2ffb1c9413a2b4cdd326e,Spring Boot Project,['Working with TicketManagement application using Spring DataJPA and Spring Rest with swagger integation'],1,19-Aug-2023
+63a2ffc4c9413addb4dd3271,Spring Boot and Microservices,['Building StockMarket API integration with Eureka Client and hosting in AWS'],1,19-Aug-2023
+63a2ffcec9413a7ce8dd3274,Spring Boot and Microservices,['Building BookStock API integration with MongoDB and making it as Eureka Client with swagger integration'],1,20-Aug-2023
+63a2ffd9c9413a2eafdd3276,Spring Boot and Microservices,['Capstone project of Insurance application with Springboot & Microservices.'],1,21-Aug-2023

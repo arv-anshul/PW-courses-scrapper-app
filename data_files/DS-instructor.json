@@ -1,0 +1,25 @@
+{
+  "618929e26e59b248b8c04aa6": {
+    "img": { "source": "bucket", "link": "Krish naik.png" },
+    "name": "Krish Naik",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/naikkrish/",
+      "instagram": "https://www.instagram.com/krishnaik06",
+      "facebook": "https://www.facebook.com/krishnaik06",
+      "youtube": "https://www.youtube.com/user/krishnaik06",
+      "github": "https://github.com/krishnaik06"
+    },
+    "email": "krish.naik@ineuron.ai",
+    "description": "Having 10+ years of experience in Data Science and Analytics with product architecture design and delivery. Worked in various product and service based Company. Having an experience of 5+ years in educating people and helping them to make a career transition."
+  },
+  "619370a59db36f163876b413": {
+    "img": { "source": "bucket", "link": "Sudhanshu Kumar.png" },
+    "name": "Sudhanshu Kumar",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/-sudhanshu-kumar/",
+      "youtube": "https://www.youtube.com/c/sudhanshukumarall"
+    },
+    "email": "sudhanshu@ineuron.ai",
+    "description": "Having 8+ years of experience in Big data, Data Science and Analytics with product architecture design and delivery. Worked in various product and service based Company. Having an experience of 5+ years in educating people and helping them to make a career transition."
+  }
+}

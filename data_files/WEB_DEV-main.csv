@@ -1,0 +1,148 @@
+id,title,parts,n_parts,date
+63a2ecf5889943bc6a7ebbbb,Course Introduction,"['Course Induction', 'Course Overview And Dashboard Description', 'Introduction Of Web Application', 'Lab Introduction', 'Support System Introduction', 'Community Introduction']",6,14-Jan-2023
+63a2ecf588994305237ebbc2,Base Building,"['Internet and How it Works', 'Web Browser', 'Browser Engine', 'Static Site', 'Dynamic Site', 'Client and Server']",6,15-Jan-2023
+63a2ecf588994358c17ebbc9,Profile Building,"['What is UI/UX ?', 'Who is Frontend Developer ?', 'Who is Backend Developer ?', 'Importance of Portfolio', 'Making Account on GitHub and LinkedIn', 'Explaining Importance of GitHub and LinkedIn', 'Why one should write a blog and its Importance ?', 'Different Platforms to Write Blog']",8,16-Jan-2023
+63a2ecf5889943975e7ebbd2,Course basic,"['What is HTML ?', 'What is CSS ?', 'Why JavaScript Came into the picture ?', 'History of JavaScript']",4,17-Jan-2023
+63a2ecf5889943420d7ebbd7,Requirement / System Setup,"['Tools Required to get Started', 'Introduction to Neuro Lab', 'Details Features Explanation of NeuroLab', 'Execution of Lab Environment']",4,18-Jan-2023
+63a2ecf5889943b6107ebbdc,Getting started,"['Introduction to Web Development', 'First Hello World', 'Showing with Live Server']",3,19-Jan-2023
+63a2ecf5889943030b7ebbe0,Staring with Emmet,"['Introduction to Emmet', 'Writing First Code on Emmet', 'Emmet and Speedy Html', 'Parent-Child and Grouping']",4,20-Jan-2023
+63a2ecf5889943a67d7ebbe5,HTML,"['An Old Style Blog App (Heading, Paragraph, Formatting etc)', 'Importance of Meta tag in HTML', 'Inline vs Block Element', 'Bring in Images', 'Lists and Interlinking pages']",5,21-Jan-2023
+63a2ecf58899436c6d7ebbeb,HTML,"['Getting a video on page', ""Tables and it's Properties"", 'Walkthrough of FORMS', 'GET and POST forms', 'Types of input forms']",5,22-Jan-2023
+63a2ecf588994347647ebbf1,Semantics,"['A Complete walkthrough with HTML and HTML5', 'What are Semantics tag?', 'Writing different Semantics tags that we have', 'Showing how semantic tags are present in Real Project']",4,23-Jan-2023
+63a2ecf58899435f767ebbf6,Starting with CSS,"['Introduction to CSS', 'Different way to bring CSS into the HTML file', 'Inline CSS and Working', 'Internal CSS and Working', 'External CSS and wokring']",5,24-Jan-2023
+63a2ecf58899432b9c7ebbfc,Starting with CSS,"['Priority of CSS in the file', 'Explore and bring in fonts', 'Bring in colors and styles', 'Margin and padding']",4,25-Jan-2023
+63a2ecf588994306767ebc01,More on CSS,"['Box-Model', 'Text and Font', 'Display and Max-Width', 'overflow and Z-index']",4,26-Jan-2023
+63a2ecf588994383327ebc06,More on CSS,"['Pseudo Classes', 'Gradients, Transitions and Tooltips', 'Animation']",3,27-Jan-2023
+63a2ecf588994378cf7ebc0a,Mobile responsive and Positions,"['What are media queries?', 'Media query in action', 'Writing Media Query for Different Screens', 'Bring content in columns', 'Playing with Different Media', 'CSS Layout']",6,28-Jan-2023
+63a2ecf588994341d87ebc11,Mobile responsive and Positions,"['CSS Position', 'Position Property', 'Working with Different CSS Position Property', 'Unit in CSS (rem, em, vh, vw, percentage)']",4,29-Jan-2023
+63a2ecf58899431d3d7ebc16,Flexbox in CSS,"['What is flexbox ?', 'Get to know the power of flexbox', 'Different Flexbox proerties - Part 1', 'Different Flexbox proerties - Part 2', 'Different Flex Child Property', 'Flex Froggy Game']",6,30-Jan-2023
+63a2ecf5889943fe857ebc1d,Grid,"['What is grid ?', 'Difference between flex and grid', 'Getting started with Grid', 'Row and Column in Grid', 'Creating Album with Grid']",5,31-Jan-2023
+63a2ecf58899435eb67ebc23,Intro to languages,"['Why JavaScript?', 'Intro to Nodejs', 'Explaining Runtime', 'Explaining V8 and Libuv lib', 'What are Browser Functions?']",5,03-Feb-2023
+63a2ecf588994354517ebc29,First Program of JavaScript,"['Values and Datatypes', 'Variables and typeof']",2,04-Feb-2023
+63a2ecf588994326267ebc2c,First Prgram of JavaScript,['Operators'],1,04-Feb-2023
+63a2ecf5889943ca817ebc2e,Conditions,"['What are Conditions', 'If', 'If-else, if-else-if']",3,05-Feb-2023
+63a2ecf5889943466c7ebc32,Conditions,"['Switch Case', 'Ternary Conditions']",2,06-Feb-2023
+63a2ecf588994311ff7ebc35,Loops,"['Why and What of Loops', 'While Loop', 'Do While Loop', 'For Loop']",4,07-Feb-2023
+63a2ecf588994377cc7ebc3a,Loops,"['Break', 'Continue', 'for of (Introduction)', 'for in (Introduction)']",4,08-Feb-2023
+63a2ecf58899436e197ebc3f,Array,"['What is Array ?', 'Index and Sorting and Array']",2,09-Feb-2023
+63a2ecf5889943502d7ebc42,Array,"['Accessing in Array', 'Changing the values in Array', 'Array methods']",3,10-Feb-2023
+63a2ecf58899430ac17ebc46,Functions,"['Functions', 'Function Declaration']",2,11-Feb-2023
+63a2ecf5889943f4ca7ebc49,Functions,"['Function without a parameter and return', 'Function returning value', 'Function with a parameter', 'Function with two parameters', 'Function with many parameters', 'Function with unlimited number of parameters']",6,12-Feb-2023
+63a2ecf588994372167ebc50,Functions,['Arrow Function'],1,13-Feb-2023
+63a2ecf588994370027ebc52,Functions,"['Anonymous Function', 'Expression Function', 'Self Invoking Functions']",3,14-Feb-2023
+63a2ecf588994350e87ebc56,Object,"['What is the need for an object ?', 'Creating an object and Manipulating values in an Object']",2,15-Feb-2023
+63a2ecf58899433e597ebc59,Object,['Object methods'],1,16-Feb-2023
+63a2ecf588994340897ebc5b,Introduction to DOM,"['Visualize of DOM', 'How we target DOM', 'DOM and its Working']",3,17-Feb-2023
+63a2ecf588994304f17ebc5f,Introduction to DOM,"['Methods of DOM - Part 1', 'Methods of DOM - Part 2']",2,18-Feb-2023
+63a2ecf588994341417ebc62,Introduction to DOM,['Methods of DOM - Part 3'],1,19-Feb-2023
+63a2ecf5889943c3e47ebc64,Introduction to DOM,['Color changer in DOM'],1,20-Feb-2023
+63a2ecf5889943d50d7ebc66,Higher Order Function,"['What is Higher Order Function (HOF)', 'Callback', 'Returing function']",3,24-Feb-2023
+63a2ecf58899437f037ebc6a,Higher Order Function,"['Setting time', 'Setinterval', 'SetTimeout']",3,25-Feb-2023
+63a2ecf5889943931e7ebc6e,Higher Order Function,"['For each', 'map', 'filter', 'reduce']",4,26-Feb-2023
+63a2ecf5889943220b7ebc73,Higher Order Function,['every'],1,27-Feb-2023
+63a2ecf58899430c3a7ebc75,Higher Order Function,"['find', 'sort']",2,28-Feb-2023
+63a2ecf58899430b377ebc78,Understanding Regex,"['What is regex?', 'Different Character in Regex and importance', 'Writing regex']",3,01-March-2023
+63a2ecf5889943b86d7ebc7c,Sets,"['Creating an empty set', 'Creating set from array', 'Adding an element to a set', 'Deleting an element a set', 'Checking an element in the set', 'Clearing the set', 'Union of sets', 'Intersection of sets', 'Difference of sets']",9,02-March-2023
+63a2ecf58899430cb97ebc86,Map,"['Creating a empty Map', 'Creating a Map from array', 'Adding values to the Map', 'Getting a value from Map', 'Checking key in Map']",5,03-March-2023
+63a2ecf5889943e5797ebc8c,Destructuring and Spreading,"['Destructing Arrays', 'Destructuring during iteration', 'Destructuring Object', 'Renaming during structuring', 'Object parameter without destructuring', 'Object parameter with destructuring']",6,04-March-2023
+63a2ecf588994391537ebc93,Destructuring and Spreading,"['Destructuring object during iteration', 'Spread or Rest Operator', 'Spread operator to get the rest of array elements', 'Spread operator to copy array']",4,05-March-2023
+63a2ecf588994364e27ebc98,Error Handling,"['Try and Catch', 'Use of try-catch in real-world Application']",2,06-March-2023
+63a2ecf588994301a17ebc9b,Class,"['Defining classes', 'Class Instantiation', 'Class Constructor', 'Default values with constructor', 'Class methods', 'Properties with initial value']",6,07-March-2023
+63a2ecf588994330b77ebca2,Class,"['getter', 'setter', 'Inheritance']",3,08-March-2023
+63a2ecf5889943255a7ebca6,Prototypes,"['Explaining Prototypes', 'How prototypes Work', 'How we manipulate this using Prototypes']",3,09-March-2023
+63a2ecf588994340a27ebcaa,Closure,"['Explaining What is Closure ?', 'First Program in Closure', 'Understanding Clouser with Another Example']",3,10-March-2023
+63a2ecf58899432e157ebcae,Promise,"['Callback', 'Promise Constructor', 'Async and Await']",3,11-March-2023
+63a2ecf5889943e1e37ebcb2,Promise,['Fetch API'],1,12-March-2023
+63a2ecf588994356867ebcb4,Depth Topic of Javascript,"['Scope / Lexical Scope / Black Scope', 'Single Thread', 'Execution Context', 'Call Stack']",4,13-March-2023
+63a2ecf588994381e37ebcb9,Depth Topic of Javascript,"['Hoisting', 'Working of function', 'Global Space and Global Scope', 'Lexical Scope']",4,14-March-2023
+63a2ecf58899432b3f7ebcbe,Depth Topic of Javascript,"['Let, var and Const', 'Types of error', 'Temporal Dead Zone']",3,15-March-2023
+63a2ecf58899430e887ebcc2,Getting Started with VCS,"['Introduction to Git', 'Explaining Version Control System', 'How it is Powerful', 'What and Why of Github ?']",4,16-March-2023
+63a2ecf58899434a0b7ebcc7,Git,"['Git foundation and Installation', 'Git Config', 'Git Initialization', 'First Commit', 'Importance of .gitignore']",5,17-March-2023
+63a2ecf5889943cf127ebccd,Git Branches,"['Creating Branch', 'Merging Branch', 'Having Multiple Branches', 'Checkout to main branch']",4,18-March-2023
+63a2ecf58899433b337ebcd2,Getting Started with Github,"['Walkthrough with the alternative of Github', 'Creating Account on Github', 'Creating a repo on GitHub']",3,19-March-2023
+63a2ecf5889943344e7ebcd6,Getting Started with Github,"['Explaining Git Repo', 'Explaining URL for that Git Repo', 'Initialization of GitHub to local system and to NeuroLab']",3,20-March-2023
+63a2ecf588994380787ebcda,Pushing Code to Github,"['Adding remote url to GitHub', 'Importance of Commit Messages', 'Push the file to GitHub', 'Push to Different Branch in Github']",4,21-March-2023
+63a2ecf588994339ea7ebcdf,Networking,"['Network', 'TCP/IP']",2,22-March-2023
+63a2ecf588994328137ebce2,Networking,['OSI Model'],1,23-March-2023
+63a2ecf5889943f7007ebce4,Networking,"['Web Socket', 'HTTP 1 and HTTP 2 and HTTP 3']",2,24-March-2023
+63a2ecf5889943f7a37ebce7,Networking,['Introduction to OS'],1,25-March-2023
+63a2ecf5889943b43d7ebce9,Networking,['Linux Command'],1,26-March-2023
+63a2ecf5889943ffaa7ebceb,Walkthrough with Concept,"['NodeJs Architecture', 'MVC Architecture']",2,27-March-2023
+63a2ecf588994315f27ebcee,Walkthrough with Concept,"['Hashing', 'Encryption']",2,28-March-2023
+63a2ecf588994310db7ebcf1,Walkthrough with Concept,['Monolithic Architecture'],1,29-March-2023
+63a2ecf5889943bceb7ebcf3,Walkthrough with Concept,['Microservices Architecture'],1,30-March-2023
+63a2ecf5889943442c7ebcf5,Overview of Databases,"['What is Database ?', 'What are types of Databases ?']",2,31-March-2023
+63a2ecf58899434b387ebcf8,Overview of Databases,['What is SQL Database and its Types of SQL Databases ?'],1,1-April-2023
+63a2ecf588994323d77ebcfa,Overview of Databases,['What is NoSQL and Types of NoSQL Databases ?'],1,2-April-2023
+63a2ecf58899430b7e7ebcfc,Overview of Databases,['Advantages and Disadvantages of SQL and NoSQL ?'],1,3-April-2023
+63a2ecf5889943bde97ebcfe,Overview of Databases,['CAP Theorem'],1,4-April-2023
+63a2ecf58899437aa57ebd00,Overview of Databases,['ACID'],1,5-April-2023
+63a2ecf58899432ea07ebd02,Overview of Databases,['Sharding'],1,6-April-2023
+63a2ecf5889943e1ba7ebd04,Database Design,['What is Schema ?'],1,7-April-2023
+63a2ecf588994371fa7ebd06,Database Design,['What is Collection ?'],1,8-April-2023
+63a2ecf588994327cd7ebd08,Database Design,['Schema Design.'],1,9-April-2023
+63a2ecf5889943b25b7ebd0a,Database Design,['Walk through with Database Design.'],1,10-April-2023
+63a2ecf58899436b757ebd0c,Database Design,['Application Database Design'],1,11-April-2023
+63a2ecf58899431b827ebd0e,MySQL and MongoDB,['RDBMS and all its Concept'],1,11-April-2023
+63a2ecf588994316b77ebd10,MySQL and MongoDB,['MySQL'],1,12-April-2023
+63a2ecf5889943151a7ebd12,MySQL and MongoDB,['SQL Queries - Part 1'],1,13-April-2023
+63a2ecf5889943d9ff7ebd14,MySQL and MongoDB,['SQL Queries - Part 2'],1,14-April-2023
+63a2ecf58899435a857ebd16,MySQL and MongoDB,"['SQL Queries - Part 3', 'Why and What of MongoDB']",2,15-April-2023
+63a2ecf588994383a87ebd18,MySQL and MongoDB,"['MongoDB Query - Part 1', 'MongoDB Query - Part 2']",2,16-April-2023
+63a2ecf588994396997ebd1c,MySQL and MongoDB,['MongoDB Query - Part 3'],1,17-April-2023
+63a2ecf5889943f5657ebd1e,MySQL and MongoDB,['Optimization'],1,18-April-2023
+63a2ecf5889943656a7ebd20,Getting Started with NodeJS,['NPM init ?'],1,19-April-2023
+63a2ecf58899434f4b7ebd22,Getting Started with NodeJS,"['Package.json', 'npm = package-lock.json & yarn = yarn.lock', 'Path module']",3,20-April-2023
+63a2ecf588994336ab7ebd26,Getting Started with NodeJS,"['FS Module', 'OS Module']",2,21-April-2023
+63a2ecf5889943245c7ebd29,Getting Started with NodeJS,"['Events Module', 'Http Module', 'How to Create Server in Nodejs']",3,22-April-2023
+63a2ecf5889943e69d7ebd2d,Getting Started with NodeJS,"['How to Handle Different URLs', 'How to send Proper response', 'How to Edit Response']",3,23-April-2023
+63a2ecf5889943c51c7ebd31,Getting Started with ExpressJS,['What is Express JS'],1,23-April-2023
+63a2ecf58899433dac7ebd33,Getting Started with ExpressJS,"['Why we use ExpressJs', 'Different type of NodeJS Frameworks']",2,24-April-2023
+63a2ecf588994381df7ebd36,Basic of Express,['Express Walkthrough in NeuroLab / How to install it Manually'],1,24-April-2023
+63a2ecf58899431f677ebd38,Basic of Express,"['Writing First Hello World using Express', 'Basics of Routes', 'Default WildCard Route (*)', 'Serving Static Files']",4,25-April-2023
+63a2ecf588994304b67ebd3d,Basic of Express,['PORT'],1,26-April-2023
+63a2ecf58899430a3e7ebd3f,API,"['Rest API (Why, What and How)']",1,26-April-2023
+63a2ecf58899432c1b7ebd41,Express 101,"['Creating a Basic Server', 'Explaining the File Structure of Backend']",2,30-April-2023
+63a2ecf5889943da3a7ebd44,Express 101,"['Creating Routes', 'Creating Controllers', 'Explanning Builtin Middleware']",3,01-May-2023
+63a2ecf58899432a207ebd48,Database 101,"['Express Connecting with Database', 'Importance of dotenv and how to use it.', 'How to Create Schema']",3,02-May-2023
+63a2ecf588994326177ebd4c,Database 101,"['Generating Models from Schemas', 'Using Model in controllers', 'Why we use ORM', 'Different type of ORM']",4,03-May-2023
+63a2ecf5889943dd3a7ebd51,Security Basics 101,['CORS'],1,04-May-2023
+63a2ecf5889943d6be7ebd53,Security Basics 101,['What is CORS and Need to use CORS'],1,5-May-2023
+63a2ecf58899431c4a7ebd55,Security Basics 101,['Creating Custom Middelware'],1,6-May-2023
+63a2ecf5889943446f7ebd57,Security Basics 101,"['What is JWT and why we use it ?', 'Creating JWT']",2,07-May-2023
+63a2ecf588994382ad7ebd5a,Security Basics 101,"['Cookies and Cookies Option', 'What is Hashing and Need of it.']",2,08-May-2023
+63a2ecf588994326ed7ebd5d,Intro to React,"['Background of React', 'Starter Project with CDN']",2,19-June-2023
+63a2ecf58899436f5b7ebd60,Create-react-app,"['NPM', 'NPM vs NPX', 'NPM vs Yarn', 'Babel', 'Create react app']",5,20-June-2023
+63a2ecf58899430f007ebd66,Project Configuration,"['VSCode plugins / Importance and working', 'Prettier, ESLint, ES7 and Shortcuts', 'Browsers list']",3,21-June-2023
+63a2ecf5889943c3327ebd6a,JSX,"['Why JSX?', 'Embedding JS expressions in JSX', 'if/else statements inside jsx component', 'Passing attributes to jsx']",4,22-June-2023
+63a2ecf588994349637ebd6f,Components,"['How is an element rendered on screen?', 'createRoot() & render() methods of react18']",2,23-June-2023
+63a2ecf5889943fed37ebd72,Components,"['How are components created ?', 'Folding structure for your components', 'Creating Multiple Components and Rendering it']",3,24-June-2023
+63a2ecf58899430ff87ebd76,PROPS,"['Composting components - Passing data one way', 'Extracting components - Getting data from props']",2,25-June-2023
+63a2ecf58899434dfe7ebd79,PROPS,"['Prop passing from grandparent to grandchild component?', 'Props are read-only', 'Prop drilling: The Problem']",3,26-June-2023
+63a2ecf588994361ff7ebd7d,Hooks Intro,['useState()'],1,27-June-2023
+63a2ecf5889943d37f7ebd7f,Hooks Intro,['useEffect()'],1,28-June-2023
+63a2ecf588994310d57ebd81,Conditional rendering,"['Use of if/else conditionals with useState()', 'Use of if/else conditionals with props']",2,29-June-2023
+63a2ecf588994373f17ebd84,Conditional rendering,"['In-line if with logical && operator', 'Avoiding components re-rendering with conditional checks']",2,30-June-2023
+63a2ecf588994326ac7ebd87,Rendering lists,"['Rendering multiple components with list', 'How to use .map() to render array', 'Optimizing lists with key arguments', 'Advance list handling with lazy-loading']",4,01-July-2023
+63a2ecf5889943b2ff7ebd8c,Events,"['onClick event and their working', 'Passing function reference v/s direct calling', '() => () v/vs () => {}', 'Passing arguments to events']",4,02-July-2023
+63a2ecf588994357e87ebd91,Router,"['React router v6', 'Making routes protected', 'Handling unknown routes (404 page)']",3,03-July-2023
+63a2ecf5889943751c7ebd95,Router,"['Getting current url inside component', 'Accessing parameters from URL', 'Routing user to a particular link']",3,04-July-2023
+63a2ecf588994369c27ebd99,Forms,"['Form handling', 'Working with Formik', 'Saving form details to localStorage']",3,05-July-2023
+63a2ecf588994305797ebd9d,Forms,"['Brief about Cookies & Session storage', 'Handling file upload']",2,06-July-2023
+63a2ecf5889943ee127ebda0,Context,"['Prop drilling: The Solution', 'useContext()']",2,07-July-2023
+63a2ecf588994364f67ebda3,Hook Conclusion,['Component lifecycle with useEffect()'],1,8-July-2023
+63a2ecf58899435e937ebda5,Hook Conclusion,['useMemo()'],1,9-July-2023
+63a2ecf588994375557ebda7,Hook Conclusion,['useCallback()'],1,10-July-2023
+63a2ecf5889943228c7ebda9,Hook Conclusion,['useReducer()'],1,11-July-2023
+63a2ecf588994339d27ebdab,State management,['Redux'],1,12-July-2023
+63a2ecf58899431ff47ebdad,State management,['Redux Toolkit - Part 1'],1,13-July-2023
+63a2ecf5889943667c7ebdaf,State management,['Redux Toolkit - Part 2'],1,14-July-2023
+63a2ecf5889943760a7ebdb1,Styling,['Tailwind - Part 1'],1,15-July-2023
+63a2ecf5889943ac417ebdb3,Styling,['Tailwind - Part 2'],1,16-July-2023
+63a2ecf588994353d57ebdb5,Styling,['Tailwind - Part 3'],1,17-July-2023
+63a2ecf588994361f07ebdb7,Styling,['Tailwind - Part 4'],1,18-July-2023
+63a2ecf58899437b7b7ebdb9,Connecting Frontend + Backend,['Walkthrough with FETCH and AXIOS'],1,19-July-2023
+63a2ecf5889943a8d57ebdbb,Connecting Frontend + Backend,"['Proxy', 'Talk on URL']",2,20-July-2023
+63a2ecf588994300de7ebdbe,Connecting Frontend + Backend,"['Creating Frontend Page - Forms', 'Creating Frontend Page - Read, Update, Delete']",2,21-July-2023
+63a2ecf5889943f1767ebdc1,Deployment in Production,"['Hosting Frontend', 'Hosting Backend']",2,21-July-2023
+63a2ecf58899432a0b7ebdc4,Deployment in Production,['Making Required Changes in App'],1,22-July-2023

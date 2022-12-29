@@ -1,0 +1,208 @@
+id,title,parts,n_parts,date
+63a2f02d8899435a117ec587,Course Introduction,"['Course Induction', 'Course Overview And Dashboard Description', 'Introduction Of Application Development Industry', 'Lab Introduction', 'Support System Introduction', 'Community Introduction']",6,21-Jan-2023
+63a2f02d88994341de7ec58e,Computer Basics,"['What is a Computer ?', 'Classification of Computer (Based on Size, Work and Purpose)', 'Feature of Computer']",3,22-Jan-2023
+63a2f02d8899434af77ec592,Components of Computer,"['I/O (Input/Output)', 'CPU', 'Memory Unit', 'Primary Memory', 'RAM', 'Hard Disk / SSD']",6,22-Jan-2023
+63a2f02d889943e79f7ec599,Git and Github,"['Git foundation', 'Setting, maintaining and tracking git repos', 'Git snapshots']",3,23-Jan-2023
+63a2f02d8899434efe7ec59d,Git and Github,"['Git for team management', 'Git branches', 'Git merging', 'Git and Github ecosystem']",4,24-Jan-2023
+63a2f02d88994359647ec5a2,Software Installation,"['Download and Install Java', 'Download and Install Eclipse', 'Download and Install Visual Studio Code']",3,25-Jan-2023
+63a2f02d88994379647ec5a6,Fundamentals of Java,"['Introduction to Programming', 'Basic feature of Java', 'Main method', 'Classes and Objects (Basics)']",4,26-Jan-2023
+63a2f02d889943a3b97ec5ab,Fundamentals of Java,"['Statically typed vs Dynamically types PL', 'Variables and data types', 'Naming Convention', 'Identifiers']",4,27-Jan-2023
+63a2f02d88994357717ec5b0,Operators and Loops,"['Operators in Java', 'Incrementation and Decrementation']",2,27-Jan-2023
+63a2f02d8899432fa07ec5b3,Operators and Loops,"['Conditional statement', 'If - else Ternary', 'Switch case', 'Loops intro', 'for - while - do while', 'More on loops', 'Scanner class and User input in Java']",7,28-Jan-2023
+63a2f02d889943c33a7ec5bb,Operators and Loops,"['Pattern programs', 'Nested loops', 'If else and nest loops to write complex patterns']",3,29-Jan-2023
+63a2f02d8899436c607ec5bf,Oops Fundamentals,"['Object creation', 'Instance variable vs local variables', 'Methods with memory maps (JVM data areas)', 'Method overloading']",4,30-Jan-2023
+63a2f02d889943334e7ec5c4,Array in Java,"['Why an array?', 'What is an Array?', 'How to create an array?', '1d, 2d, 3d and regular jagged with memory']",4,01-Feb-2023
+63a2f02d8899436a2b7ec5c9,Array in Java,"['Different ways to create an Array', 'Buffer over run and arrayindexoutofbounds exception', 'Disadvantages of Array in Java']",3,02-Feb-2023
+63a2f02d889943dfac7ec5cd,String in Java,"['String Introduction', 'Types of String', 'Immutable String and Memory Map( Constant Pool)']",3,03-Feb-2023
+63a2f02d889943770b7ec5d1,String in Java,"['Ways to compare', 'Inbuilt methods in String class', 'Concatenation']",3,04-Feb-2023
+63a2f02d889943a1e57ec5d5,String in Java,"['Revering String Different cases', 'Palindrome', 'Anagram program', 'Pangram program']",4,05-Feb-2023
+63a2f02d8899432f0d7ec5da,String in Java,"['Mutable String', 'String Buffer vs String Builder', 'Inbuilt Methods']",3,06-Feb-2023
+63a2f02d889943e8ba7ec5de,Static Keyword,"['Static keyword', 'Class loading and How java program actually executes', 'Different components in Java program']",3,07-Feb-2023
+63a2f02d88994333817ec5e2,Static Keyword,"['Static variables, static methods, static block', 'Differences w.r.t Non static and static members of a class']",2,08-Feb-2023
+63a2f02d88994367727ec5e5,Encapsulation,"['Need of Encapsulation', 'What is Encapsulation?', 'Private members', 'Shadowing problem and this keyword', 'Setters & Getters']",5,09-Feb-2023
+63a2f02d88994395617ec5eb,Constructor,"['Constructor', 'Constructor Chaining (this() vs super() )']",2,10-Feb-2023
+63a2f02d889943c2ff7ec5ee,Inheritance,"['Inheritance intro', 'extends keyword', 'Types of Inheritance', 'Important key points (5 keypoints)']",4,11-Feb-2023
+63a2f02d889943998d7ec5f3,Inheritance,"['Types of methods Inherited, overidden, specialized', 'Rules to override method']",2,12-Feb-2023
+63a2f02d88994320387ec5f6,Inheritance,['Constructor execution in case of Inheritance'],1,13-Feb-2023
+63a2f02d8899435f2c7ec5f8,Polymorphism and Abstraction,"['What is polymorphism?', 'How to achieve polymorphism', 'Runtime vs Compile time polymorphism']",3,14-Feb-2023
+63a2f02d88994392037ec5fc,Polymorphism and Abstraction,"['Abstract keyword and Abstraction', 'Abstract class and Abstract method']",2,15-Feb-2023
+63a2f02d889943231b7ec5ff,final keyword in Java,"['final class', 'final variable', 'final method']",3,15-Feb-2023
+63a2f02d88994373147ec603,Interface,"['What is interface?', 'Need of Interface', 'Important key points of Interface']",3,16-Feb-2023
+63a2f02d8899436ab67ec607,Interface,"['Abstract vs interface', 'Additional features of Interface', 'Functional Interface']",3,17-Feb-2023
+63a2f02d889943cc0f7ec60b,Lambda Expression,"['What is Lambda Expression', 'Different ways to create Lambda Expression', 'Lambda Expression excercises']",3,18-Feb-2023
+63a2f02d8899434c2a7ec60f,Exception Handling,"['Different types of Errors in Java', 'What is an Exception?', 'try-catch']",3,19-Feb-2023
+63a2f02d889943c88f7ec613,Exception Handling,"['Multiple catch block', 'Handling vs Ducking an Exception']",2,20-Feb-2023
+63a2f02d8899433a9b7ec616,Exception Handling,"['Rethrowing an Exception(throw, throws,finally) and Custom Exception']",1,21-Feb-2023
+63a2f02d8899435b447ec618,Exception Handling,"['Hierarchy of an Exception class', 'Control flow of Exception Handling concept']",2,22-Feb-2023
+63a2f02d8899434a167ec61b,Exception Handling,['try with Resources'],1,23-Feb-2023
+63a2f02d889943310a7ec61d,Operating System (OS),"['What is Operating System?', 'Types of Operating system', 'Single User Operating System', 'Multi User Operating System', 'Multitasking Operating System', 'Need of Multiple thread']",6,24-Feb-2023
+63a2f02d889943151a7ec624,Multi-threading,"['What is Thread?', 'How to create Threads', 'run() method']",3,25-Feb-2023
+63a2f02d889943cf887ec628,Multi-threading,['Multiple task within single run()'],1,26-Feb-2023
+63a2f02d889943fcae7ec62a,Multi-threading,"['Different states of Thread', 'synchronized keyword']",2,28-Feb-2023
+63a2f02d889943d20f7ec62d,Multi-threading,['Dead lock'],1,01-Mar-2023
+63a2f02d8899434ffb7ec62f,Multi-threading,['Producer - Consumer problem'],1,02-Mar-2023
+63a2f02d889943f0ab7ec631,Collection in Java,"['Why Collection ?', 'Collection Hierarchy', 'ArrayList']",3,03-Mar-2023
+63a2f02d8899432b157ec635,Collection in Java,"['LinkedList', 'ArrayDeque']",2,04-Mar-2023
+63a2f02d889943229f7ec638,Collection in Java,"['PriorityQueue', 'TreeSet']",2,05-Mar-2023
+63a2f02d88994323c57ec63b,Collection in Java,"['HashSet', 'LinkedHashSet']",2,06-Mar-2023
+63a2f02d889943c0737ec63e,Collection in Java,"['Iterator, List Iterator', 'Legacy classes and Enumeration']",2,07-Mar-2023
+63a2f02d8899433cf37ec641,Map in Java,"['Introduction to Map in Java', 'Map Hierarchy', 'HashMap']",3,08-Mar-2023
+63a2f02d889943b89b7ec645,Map in Java,['Other In-Built classes and Inbuilt methods under Map Hierarchy'],1,09-Mar-2023
+63a2f02d889943c6767ec647,Generics in Java,"['Need of Generics and Basics of Generics', 'More on Generics in Java']",2,10-Mar-2023
+63a2f02d88994316387ec64a,Collections class in Java,"[""Collections class and it's inbuilt methods in Java""]",1,11-Mar-2023
+63a2f02d88994310ab7ec64c,Complex Object Sorting,['Comparator vs Comparable Interface'],1,12-Mar-2023
+63a2f02d8899433e997ec64e,Date and Time API,['Date and Time API in java'],1,13-Mar-2023
+63a2f02d88994342ac7ec650,Stream API,['Stream API in Java'],1,14-Mar-2023
+63a2f02d8899433de47ec652,Enum,['Enums'],1,15-Mar-2023
+63a2f02d88994355e97ec654,Annotations in Java,"['What is Annotation?', 'In Built Annotation', 'Custom Annotation']",3,16-Mar-2023
+63a2f02d8899433c457ec658,Reflection API,['Reflection API in Java'],1,17-Mar-2023
+63a2f02d889943735a7ec65a,File Handling in Java,"['Input Stream', 'Output Stream']",2,18-Mar-2023
+63a2f02d88994368707ec65d,File Handling in Java,['File Operation in Java'],1,19-Mar-2023
+63a2f02d8899435c2e7ec65f,File Handling in Java,"['Serialization', 'Deserialization']",2,20-Mar-2023
+63a2f02d88994320887ec662,Concurrency,['Concurrency in Java'],1,21-Mar-2023
+63a2f02d889943a6547ec664,SQL - MySQL,"['Basic Concepts of Advantages of DBMS', 'Exploring Relational DBMS', 'Introduction to SQL']",3,23-Mar-2023
+63a2f02d8899431f897ec668,SQL - MySQL,"['DDL and DML Statements', 'Working with Queries (DQL)']",2,24-Mar-2023
+63a2f02d889943368d7ec66b,SQL - MySQL,['CRUD operations'],1,25-Mar-2023
+63a2f02d88994388287ec66d,SQL - MySQL,"['Aggregate Functions', 'Working with Constraints']",2,26-Mar-2023
+63a2f02d889943226a7ec670,SQL - MySQL,['Joins and Set Operations'],1,27-Mar-2023
+63a2f02d889943a21b7ec672,MongoDB,"['What is mongoDB?', 'How does mongoDB works', 'Big umbrella of MongoDB', 'How to install mongoDB on MAC', 'How to install mongoDB on Windows']",5,28-Mar-2023
+63a2f02d8899437c447ec678,MongoDB,"['Create and Read operation in MongoDB', 'ObjectID and BSON in mongoDB']",2,29-Mar-2023
+63a2f02d889943bf5a7ec67b,MongoDB,['CRUD operations in mongoDB'],1,30-Mar-2023
+63a2f02d8899437e157ec67d,MongoDB,"['UpdateOne and DeleteOne in mongoDB', 'UpdateMany and deleteMany in mongoDB']",2,31-Mar-2023
+63a2f02d8899433df47ec680,MongoDB,"['Database issues with Update in mongodb', 'Getting more data in mongodb']",2,01-April-2023
+63a2f02d88994316737ec683,MongoDB,"['Understanding objects structure in mongoDB', 'What is schema in mongoDB']",2,02-April-2023
+63a2f02d8899431d847ec686,JDBC,"['Introduction to JDBC', 'Steps followed to write JDBC Code']",2,03-April-2023
+63a2f02d88994321047ec689,JDBC,['Basics of JDBC - 1'],1,04-April-2023
+63a2f02d88994339737ec68b,JDBC,['Basics of JDBC - 2'],1,05-April-2023
+63a2f02d889943322f7ec68d,JDBC,['Deep dive into JDBC part 1'],1,06-April-2023
+63a2f02d889943473c7ec68f,JDBC,['Deep dive into JDBC part 2'],1,07-April-2023
+63a2f02d889943cac57ec691,HTML & CSS,['Introduction and Basics of HTML'],1,09-April-2023
+63a2f02d88994363fb7ec693,HTML & CSS,['Deep dive into HTML'],1,10-April-2023
+63a2f02d889943653a7ec695,HTML & CSS,['Introduction to CSS and Basics'],1,11-April-2023
+63a2f02d88994357897ec697,HTML & CSS,['Deep dive into CSS'],1,12-April-2023
+63a2f02d889943b80a7ec699,Servlet,"['Types of application', 'Client Server Architecture', 'Different types of Server a. web server b. application server', 'Need of Servlet and Different ways of Creating a Servlet']",4,13-April-2023
+63a2f02d889943d5be7ec69e,Servlet,"['First Servlet', 'XML and Annotation support']",2,14-April-2023
+63a2f02d889943100f7ec6a1,Servlet,['Difference b/w ServletConfig vs ServletContext object'],1,15-April-2023
+63a2f02d88994309967ec6a3,Servlet,"['HttpServletRequest, HttpServletResponse, RequestDispatching', 'Servlet life cycle']",2,16-April-2023
+63a2f02d88994342fe7ec6a6,Servlet,"['Session Tracking Mechanism', 'Http Session Tracking']",2,17-April-2023
+63a2f02d88994327b27ec6a9,Servlet,['Cookies'],1,18-April-2023
+63a2f02d88994394a27ec6ab,Servlet,"['Filters, Listeners']",1,19-April-2023
+63a2f02d88994334ea7ec6ad,MVC Design Pattern,"['MVC ( Model-View-Controller)', 'Servlet Application with MVC Design Pattern']",2,20-April-2023
+63a2f02d88994304ae7ec6b0,ORM(Hibernate and JPA Specifications),"['Drawbacks of JDBC', 'Hibernate Introduction', 'Advantages of Hibernate compared to JDBC']",3,22-April-2023
+63a2f02d88994327cc7ec6b4,ORM(Hibernate and JPA Specifications),"['ORM (Object Relational Mapping)', 'Configuration xml file and Mapping xml file along with dtds.']",2,23-April-2023
+63a2f02d88994339157ec6b7,ORM(Hibernate and JPA Specifications),"['Hibernate architecture', 'Installation and Directory Structure', 'Hibernate Data Types.']",3,24-April-2023
+63a2f02d8899435e7d7ec6bb,ORM(Hibernate and JPA Specifications),"['First Application using Hibernate.', 'Hibernate API']",2,25-April-2023
+63a2f02d889943c2fb7ec6be,ORM(Hibernate and JPA Specifications),"['CRUD operations', 'Primary key Generators']",2,26-April-2023
+63a2f02d8899434b4b7ec6c1,ORM(Hibernate and JPA Specifications),"['Hibernate Query Language (HQL)', 'Native SQL', 'Criteria API', 'Inheritance in Hibernate']",4,27-April-2023
+63a2f02d889943031e7ec6c6,ORM(Hibernate and JPA Specifications),"['Relations(one to one, one to many)']",1,28-April-2023
+63a2f02d889943a2fb7ec6c8,ORM(Hibernate and JPA Specifications),"['Relations(many to one, many to many)']",1,29-April-2023
+63a2f02d88994312967ec6ca,ORM(Hibernate and JPA Specifications),"['Caching', 'Connecting with Multiple Databases']",2,30-April-2023
+63a2f02d8899433a077ec6cd,ORM(Hibernate and JPA Specifications),['Hibernate Annotations'],1,01-May-2023
+63a2f02d889943e2dc7ec6cf,ORM(Hibernate and JPA Specifications),"['Performing BLOB/CLOB operation, Insertion of Date and Time to Database']",1,02-May-2023
+63a2f02d88994349a47ec6d1,ORM(Hibernate and JPA Specifications),"['Performing Object versioning TimeStamping and life cycle events of hibernate', 'ConnectionPooling in hibernate']",2,03-May-2023
+63a2f02d8899433bc37ec6d4,Introduction to Algorithms,['Complexity Classes'],1,05-May-2023
+63a2f02d88994381237ec6d6,Analysis in Algorithms,['Recurrence Relation Introduction'],1,05-May-2023
+63a2f02d88994332a17ec6d8,Analysis in Algorithms,"['Substitution Method - Problem 1', 'Substitution Method - Problem 2', 'Substitution Method - Problem 3']",3,06-May-2023
+63a2f02d88994328527ec6dc,Analysis in Algorithms,"['Recursive Tree Approach - Problem 1', 'Recursive Tree Approach - Problem 2', 'Recursive Tree Approach - Problem 3']",3,07-May-2023
+63a2f02d889943414a7ec6e0,Analysis in Algorithms,['Practice Set - Substitution and Recursive Tree Approach'],1,08-May-2023
+63a2f02d8899430fe27ec6e2,Analysis in Algorithms,"['Masters Theorem Case 1', 'Masters Theorem Case 2', 'Masters Theorem Case 3']",3,09-May-2023
+63a2f02d889943478c7ec6e6,Analysis in Algorithms,['Practice Set - Masters Theorem'],1,10-May-2023
+63a2f02d88994335f37ec6e8,Array Data Structure,"['Introduction to Array Data Structure', 'Array Data Structure Implementation', 'Address of an element in 1D array', 'Address of an element in 2D array']",4,11-May-2023
+63a2f02d8899430e797ec6ed,Array Data Structure,"['Searching of an element - Linear Search', 'Searching of an element - Binary Search']",2,12-May-2023
+63a2f02d88994393997ec6f0,Array Data Structure,"['Recurrence Relation of Binary Search', 'Implementation of Binary Search']",2,13-May-2023
+63a2f02d889943021e7ec6f3,Array Data Structure,['Binary Search Interview Problem'],1,14-May-2023
+63a2f02d88994329eb7ec6f5,Array Data Structure,"['Search a 2D Matrix', 'Searching of an element - Ternary Search', 'Recurrence Relation of Ternary Search', 'Implementation of Ternary Search']",4,15-May-2023
+63a2f02d889943eb687ec6fa,Array Data Structure,"['Sorting in an array - Comparison and Non-Comparison', 'Stable and Unstable sorting algorithms', 'Inplace and Outplace Sorting algorithms']",3,16-May-2023
+63a2f02d889943fb597ec6fe,Array Data Structure,"['Comparison Sort - Bubble Sort', 'Comparison Sort - Bubble Sort Implementation', 'Comparison Sort - Selection Sort', 'Comparison Sort - Selection Sort Implementation']",4,17-May-2023
+63a2f02d88994350527ec703,Array Data Structure,"['Comparison Sort - Insertion Sort', 'Comparison Sort - Insertion Sort Implementation']",2,18-May-2023
+63a2f02d889943e41d7ec706,Bit Manipulation,"['What is Binary Number System?', 'Bitwise Operators', 'Bitwise Operators Examples', 'Bitwise and Logical Operators']",4,19-May-2023
+63a2f02d88994352bf7ec70b,Recursion,"['Introduction to Recursion', 'Factorial Finding using Recursion with its Implementation']",2,20-May-2023
+63a2f02d8899439d987ec70e,Recursion,['Fibonacci Series using Recursion with its Implementation'],1,21-May-2023
+63a2f02d889943ee1e7ec710,Recursion,['Count of number of ways to reach upstairs'],1,22-May-2023
+63a2f02d88994398e87ec712,Linked List Data Structure,"['Introduction to Linked List', 'Insertion of a node in Linked List - Front', 'Insertion of a node in Linked List - After a given node', 'Insertion of a node in Linked List - End']",4,22-May-2023
+63a2f02d8899435ddf7ec717,Linked List Data Structure,"['Deletion of a node in Linked List', 'Searching of a node in Linked List']",2,23-May-2023
+63a2f02d88994368647ec71a,Stack and Queue,"['Introduction to Stack Data Structure and Push Operation in-depth', 'Stack-Pop operation']",2,24-May-2023
+63a2f02d8899433df47ec71d,Stack and Queue,['Implementation of Stack using array and linked list'],1,25-May-2023
+63a2f02d88994300467ec71f,Stack and Queue,"['Queue - Insertion and Deletion operation', 'Implementation of Queue using array and linked list']",2,26-May-2023
+63a2f02d889943f71a7ec722,Tree Data Structure,['Basics of Tree - Full Binary Tree vs Complete Binary Tree vs Almost Complete Binary Tree'],1,27-May-2023
+63a2f02d88994373747ec724,Tree Traversal Algorithms,"['Tree Traversal Algorithms - Inorder, Preorder and PostOrder']",1,28-May-2023
+63a2f02d88994324ea7ec726,Binary Search Tree,"['Introduction to Binary Search Tree', 'Insertion and Inorder Traversal in BST']",2,29-May-2023
+63a2f02d889943fbcb7ec729,Binary Search Tree,"['Searching in Binary Search Tree', 'Deletion in Binary Search Tree']",2,30-May-2023
+63a2f02d889943513f7ec72c,Heap Data Structure,"['Basics of Heap Sort - Full Binary Tree vs Complete Binary Tree vs Almost Complete Binary Tree', 'Concept of Minheap and Maxheap Tree']",2,31-May-2023
+63a2f02d88994341617ec72f,Heap Data Structure,"['Insertion in Minheap or Maxheap Tree', 'Deletion in Minheap or Maxheap Tree', 'Creation of Minheap or Maxheap Tree']",3,01-June-2023
+63a2f02d889943eb2a7ec733,Heap Data Structure,"['Time Complexity Derivation to build minheap or maxheap', 'Comparison Sort - Heap Sort']",2,02-June-2023
+63a2f02d88994364be7ec736,Priority Queue,"['Insertion in a Priority Queue', 'Deletion in a Priority Queue', 'Peek in a Priority Queue', 'Types of Priority Queue']",4,03-June-2023
+63a2f02d88994322907ec73b,Graph Traversal Algorithms,"['Basics Of Graph- Simple vs Multigraph, Null vs Complete Graph, Relationship between edges and vertices in Simple Graph']",1,04-June-2023
+63a2f02d889943bc867ec73d,Graph Traversal Algorithms,"['Introduction to Graph Traversal Algorithms', 'Introduction to Depth First Search']",2,05-June-2023
+63a2f02d889943ffaa7ec740,Graph Traversal Algorithms,"['DFS Pseudocode and illustration using an example', 'DFS Coding Implementation']",2,06-June-2023
+63a2f02d88994319ed7ec743,Graph Traversal Algorithms,"['BFS Intro, Pseudocode and illustration using an example', 'BFS Coding Implementation']",2,07-June-2023
+63a2f02d8899437e3e7ec746,Advanced String Algorithms,['KMP Algorithm'],1,08-June-2023
+63a2f02d88994321d67ec748,Advanced String Algorithms,"['Z Algorithm', ""Manchester's Algorithm""]",2,09-June-2023
+63a2f02d88994381057ec74b,Divide and Conquer,"['Introduction to Divide and Conquer', 'Applications of Divide and Conquer - Finding of maxima and minima', 'Applications of Divide and Conquer - Implementation of finding of maxima and minima']",3,10-June-2023
+63a2f02d889943ca137ec74f,Divide and Conquer,['Applications of Divide and Conquer - Finding of power of an element with its Implementation'],1,11-June-2023
+63a2f02d8899431db17ec751,Divide and Conquer,"['Applications of Divide and Conquer - Binary Search', 'Applications of Divide and Conquer - Recurrence relation of Binary Search', 'Applications of Divide and Conquer - Implementation of Binary Search']",3,12-June-2023
+63a2f02d88994367e27ec755,Divide and Conquer,"['Applications of Divide and Conquer - Merge Sort', 'Applications of Divide and Conquer - Implementation of Merge Sort']",2,13-June-2023
+63a2f02d88994389ad7ec758,Divide and Conquer,"['Applications of Divide and Conquer - Quick Sort', 'Applications of Divide and Conquer - Implementation of Quick Sort', 'Applications of Divide and Conquer - Randomized QuickSort']",3,14-June-2023
+63a2f02d8899434a037ec75c,Divide and Conquer,"['Applications of Divide and Conquer - Selection Procedure', 'Applications of Divide and Conquer - Implementation of Selection Procedure']",2,15-June-2023
+63a2f02d8899438e8f7ec75f,Divide and Conquer,"['Applications of Divide and Conquer - Count of number of inversions', ""Applications of Divide and Conquer - Strassen's Matrix Multiplication""]",2,16-June-2023
+63a2f02d889943337c7ec762,Greedy Algorithm,"['Introduction to greedy algorithm', 'Fractional Knapsack Problem', 'Implementation of Fractional Knapsack Problem']",3,17-June-2023
+63a2f02d889943371b7ec766,Greedy Algorithm,"['Introduction to Spanning Tree and Minimum Spanning Tree', ""Minimum Spanning Tree- Kruskal 's Algorithm"", ""Minimum Spanning Tree- Prim's Algorithm""]",3,18-June-2023
+63a2f02d88994357947ec76a,Greedy Algorithm,"[""Single Source Shortest Path- Dijkstra's algorithm"", 'Huffman Coding']",2,19-June-2023
+63a2f02d88994307977ec76d,Greedy Algorithm,"['Optimal Merge Pattern', 'Job Sequencing with Deadline']",2,20-June-2023
+63a2f02d88994377287ec770,Dynamic Programming,"['Introduction to Dynamic Programming', 'Fibonacci Series using Dynamic Programming']",2,21-June-2023
+63a2f02d8899436bb97ec773,Dynamic Programming,"['Longest Common Subsequence', '0-1 Knapsack Problem']",2,22-June-2023
+63a2f02d88994383df7ec776,Design principles,"['DRY principles', 'KISS principles']",2,23-June-2023
+63a2f02d88994306b27ec779,Design principles,['SOLID principles'],1,24-June-2023
+63a2f02d889943c4df7ec77b,Design principles,['CUPID principles'],1,25-June-2023
+63a2f02d8899437e337ec77d,Introduction and types,"['OOPS overview', 'The Singleton Pattern part 1']",2,26-June-2023
+63a2f02d8899431b067ec780,Introduction and types,"['The Singleton Pattern part 2', 'The Singleton Pattern part 3']",2,27-June-2023
+63a2f02d8899432b937ec783,Important System Design Concepts,"['System Design Basics', 'Key Characteristics of Distributed Systems']",2,28-June-2023
+63a2f02d8899434a4c7ec786,Important System Design Concepts,"['Load Balancing', 'Client—Server Model', 'Network Protocols']",3,29-June-2023
+63a2f02d88994323757ec78a,Important System Design Concepts,"['Storage', 'Latency And Throughput', 'Availability']",3,30-June-2023
+63a2f02d889943917a7ec78e,Important System Design Concepts,"['Caching', 'Data Partitioning', 'Indexes', 'Replication']",4,01-July-2023
+63a2f02d88994349447ec793,Important System Design Concepts,"['Sharding', 'Proxies', 'Redundancy', 'SQL vs. NoSQL']",4,02-July-2023
+63a2f02d88994372b47ec798,Important System Design Concepts,"['CAP Theorem and', 'PACELC Theorem']",2,03-July-2023
+63a2f02d88994342a87ec79b,Important System Design Concepts,"['Consistent Hashing', 'Long Polling vs WebSockets vs Server Sent Events', 'Bloom Filters']",3,04-July-2023
+63a2f02d889943ea0f7ec79f,Important System Design Concepts,"['Quorum, Leader and Follower, Heartbeat, Checksum', 'Rate Limiting', 'Logging And Monitoring']",3,05-July-2023
+63a2f02d88994306a57ec7a3,Important System Design Concepts,['Security And HTTPS'],1,06-July-2023
+63a2f02d889943e0ed7ec7a5,Important System Design Concepts,['API Design'],1,07-July-2023
+63a2f02d889943228c7ec7a7,SPRING BOOT,"['What is Spring Framework', 'What is Spring Boot', 'Differences between Spring & Spring Boot']",3,08-July-2023
+63a2f02d88994384ce7ec7ab,SPRING BOOT,"['IOC container', 'Dependency Injection a) Setter Injection b) Constructor Injection c) Field Injection', 'Stereotype Annotations a) @Component b) @Service c) @Repository d) @Controller e) @Indexed', 'Spring Boot Overview', 'Pros & Cons of Spring Boot']",5,09-July-2023
+63a2f02d88994348b47ec7b1,SPRING BOOT,"['Approaches to create Spring Boot Application', 'Spring Initializer (start.spring.io)', 'Spring Starter Wizard in STS IDE', 'Spring Boot Starters']",4,10-July-2023
+63a2f02d88994329157ec7b6,SPRING BOOT,"['What is Start Class in Spring Boot', '@SpringBootApplication annotation internals', 'SpringApplication.run(..) method internals']",3,11-July-2023
+63a2f02d889943c1047ec7ba,SPRING BOOT,"['Spring Boot Application Bootstrapping', 'AutoConfiguration in Spring Boot']",2,12-July-2023
+63a2f02d88994367c67ec7bd,SPRING DATA JPA,"['What is Persistence Layer', 'Best practices to follow in persistence layer', 'ORM Basics', 'Spring Data JPA Introduction', 'Differences between Spring ORM and Spring Data JPA']",5,13-July-2023
+63a2f02d8899437c7a7ec7c3,SPRING DATA JPA,"['CurdRepository introduction', 'CurdRepository methods for DB operations', 'Custom findByXXX method syntax', 'Custom Queries Execution in Data JPA']",4,14-July-2023
+63a2f02d8899431fde7ec7c8,SPRING DATA JPA,"['Jpa Repository introduction', 'Jpa Repository methods for DB operations', 'Pagination Using Data JPA methods']",3,15-July-2023
+63a2f02d889943df6a7ec7cc,SPRING DATA JPA,"['Sorting Using Data JPA Methods', 'Query By Example Executor', 'Generators', 'Custom Generators in Spring Data']",4,16-July-2023
+63a2f02d88994369e77ec7d1,SPRING DATA JPA,"['Embedded Database Introduction', 'Embedded Database vs External Database', 'Application Development using Embedded Database (H2)', 'Application Development Using MYSQL Database']",4,17-July-2023
+63a2f02d8899435aff7ec7d6,SPRING DATA JPA,"['Application Development Using PostGreSQL Database', 'Application Development Using MongoDB', 'Profiles in SpringBoot']",3,18-July-2023
+63a2f02d889943cae37ec7da,SPRING WEB MVC,"['Spring Web MVC Introduction', 'Spring Web MVC Advantages', 'Spring MVC Architecture', 'Introduction to Front Controller', 'Controllers', 'Handler Mappers', 'View Resolvers']",7,19-July-2023
+63a2f02d8899435fea7ec7e2,SPRING WEB MVC,"['Web Application development using Spring Boot', 'Embedded HTTP Servers Introduction', 'a) Embedded Tomcat Server b) Embedded Jetty Server c) Embedded Undertow Server', 'Making Jetty as Default server']",4,20-July-2023
+63a2f02d889943e05b7ec7e7,SPRING WEB MVC,"['Web Application Deployment in External Server', 'Sending Data From UI to Controller', 'a) Query Param b) Path Param']",3,21-July-2023
+63a2f02d88994341e27ec7eb,SPRING WEB MVC,"['Sending Data From Controller to UI a) Model b) ModelAndView', '@RequestBody annotation , @ResponseBody annotation']",2,22-July-2023
+63a2f02d8899432ac97ec7ee,SPRING WEB MVC,"['Introduction to Spring MVC Form Tag library', 'Form Based application development using Spring Boot']",2,23-July-2023
+63a2f02d88994310d17ec7f1,SPRING WEB MVC,"['Thymeleaf Introduction', 'Web Application with Thymeleaf']",2,24-July-2023
+63a2f02d889943789b7ec7f4,SPRING WEB MVC,"['Sending Email using Spring Boot', 'Exception Handling in Spring Boot Web Application']",2,25-July-2023
+63a2f02d889943877d7ec7f7,SPRING WEB MVC,"['Spring Boot Actuators', 'a) Health b) Info c) Heapdump d) Theaddump', 'e) Beans f) Httptrace g) Mappings h) Shutdown etc']",3,26-July-2023
+63a2f02d889943a28c7ec7fb,SPRING WEB MVC,"['Unit Testing for Spring Boot Application using Junit with Mocking', 'Code Coverage using Jacocco']",2,27-July-2023
+63a2f02d889943f4907ec7fe,SPRING REST,"['Distributed Applications', 'Distributed Technologies', 'SOAP vs REST', 'RESTful Services Introduction', 'REST principles']",5,30-July-2023
+63a2f02d889943e9fc7ec804,SPRING REST,"['One Time operations', 'Run Time Operations a) Marshalling b) Un Marshalling']",2,31-July-2023
+63a2f02d889943990c7ec807,SPRING REST,"['JAX-B Introduction JAX-B Architecture', 'Applications development with JAX-B']",2,01-Aug-2023
+63a2f02d88994301da7ec80a,SPRING REST,"['JSON Introduction', 'XML vs JSON', 'JACKSON API', 'Converting Java object to JSON and vice versa using Jackson API']",4,02-Aug-2023
+63a2f02d88994390027ec80f,SPRING REST,"['GSON API', 'Converting Java Object to JSON and Vice Versa using GSON API', 'HTTP Protocol Details', 'HTTP Methods a) GET b) POST c) PUT d) DELETE', 'HTTP Status Codes']",5,03-Aug-2023
+63a2f02d889943adb67ec815,SPRING REST,"['@RestController', '@RequestBody', '@ResponseBody', '@RequestParam', '@PathVariable', 'MediaTypes', 'Consumes, Produces', 'Accept Header, Content-Type head']",8,04-Aug-2023
+63a2f02d88994375ac7ec81e,SPRING REST,"['REST API Development using Spring Boot', 'POSTMAN']",2,05-Aug-2023
+63a2f02d889943ba3b7ec821,SPRING REST,"['SWAGGER & SWAGGER UI', 'Exception Handling in REST API']",2,06-Aug-2023
+63a2f02d88994314937ec824,SPRING REST,"['REST Security', 'a) HTTP Basic Auth', 'b) JWT', 'c) OAuth2.0']",4,07-Aug-2023
+63a2f02d889943cbcd7ec829,SPRING REST,"['Mono Objects', 'Flux Objects', 'REST Client Introduction', 'RestTemplate', 'WebClient', 'RestTemplate vs WebClient']",6,08-Aug-2023
+63a2f02d8899430f457ec830,SPRING REST,"['Reactive Programming', 'Synchronous vs Asynchronous Calls']",2,09-Aug-2023
+63a2f02d88994347567ec833,SPRING REST,"['Apache Kafka Integration with Spring Boot', 'Redis Cache Integration with Spring Boot']",2,10-Aug-2023
+63a2f02d8899436f267ec836,MICRO SERVICES,"['Monolith Architecture case study', 'Monolith Application Deployment Process', 'Load balancer (Cluster) case study', 'Load Balancing Algorithms', 'a) Round Robin b) IP Hashing c) Sticky Session', 'Monolith Architecture Drawbacks']",6,11-Aug-2023
+63a2f02d88994352897ec83d,MICRO SERVICES,"['Micro services Introduction', 'Micro Services Advantages', 'Micro Services Dis-Advantages', 'Micro Services case study', 'Identifying Micro services boundaries', 'Micro services Architecture']",6,12-Aug-2023
+63a2f02d8899430b9f7ec844,MICRO SERVICES,"['Micro services Development', 'a) API – 1', 'b) API – 2', 'Interservice communication casestudy', 'FeignClient']",5,13-Aug-2023
+63a2f02d8899430f607ec84a,MICRO SERVICES,"['Cloud Introduction', 'a) AWS', 'b) AZURE', 'Auto Scaling']",4,14-Aug-2023
+63a2f02d889943cbc07ec84f,MICRO SERVICES,"['Service Registry case study (NetflixEureka)', 'Gateway API (Zuul proxy)', 'Hystrix (Circuit Breaker)', 'Hystrix Dashboard']",4,15-Aug-2023
+63a2f02d8899439b387ec854,MICRO SERVICES,"['Spring Boot Admin Server', 'Spring Boot Admin Client']",2,16-Aug-2023
+63a2f02d889943f5cf7ec857,MICRO SERVICES,"['Distributed Logging', 'a) Sleuth Logging', 'b) Zipkin Server']",3,17-Aug-2023
+63a2f02d88994315467ec85b,MICRO SERVICES,"['Ribbon case study (Microservices load balancer)', 'Implementing Ribbon in Microservices', 'ConfigServer Introduction &Implementation']",3,18-Aug-2023

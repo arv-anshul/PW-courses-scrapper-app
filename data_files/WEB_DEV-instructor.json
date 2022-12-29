@@ -1,0 +1,36 @@
+{
+  "6214b211d46987858c2146eb": {
+    "img": { "source": "bucket", "link": "HITESH CHOUDHARY.jpg" },
+    "email": "hitesh@lco.dev",
+    "name": "Hitesh Choudhary",
+    "description": "I like to make videos related to code and tech in my free time. I also lead a few tech teams in startups, help in hiring talent for companies. I am also on a part time traveller, with 31 countries checked off so far!",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/hiteshchoudhary/",
+      "youtube": "https://www.youtube.com/c/HiteshChoudharydotcom"
+    }
+  },
+  "6294e0ab69607943313b8eac": {
+    "img": { "source": "bucket", "link": "6294e0ab69607943313b8eac.jpg" },
+    "email": "anurag@ineuron.ai",
+    "name": "Anurag Tiwari",
+    "description": "Hey, I am Anurag Tiwari, a developer at learncodeonline. We have built a scalable system handled by 300K users on a daily basis. I'm a software developer who constantly seeks innovative solutions to everyday problems. I have been teaching students for the last 24 months.",
+    "social": { "linkedin": "" }
+  },
+  "63a0c12f80762853708f4967": {
+    "img": { "source": "bucket", "link": "63a0c12f80762853708f4967.jpg" },
+    "name": "Vishwa Mohan",
+    "email": "vishwa@pw.live",
+    "description": "Staff Software Engineer at LinkedIn ( Ex - WalmartLabs, Paypal, Oracle ) - IIT BHU Graduate - 14 years of teaching experience - Top educator at almost all the edTech companies in India and abroad on the topics including Software Engineering, Data Science, Big Data, AI/ML etc - Mentored 20,000+ professional and students till date - Students at almost every company - including FAANG companies",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/vishwa-mohan/",
+      "youtube": ""
+    }
+  },
+  "63a45203734f0638dd31c183": {
+    "img": { "source": "bucket", "link": "63a45203734f0638dd31c183.jpg" },
+    "name": "Sanket Singh",
+    "email": "singh.sanket1103@gmail.com",
+    "description": "Current working with Google Pay | Ex - Software Engineer at LinkedIn |Former Google Summer Of Code Developer for Harvard University | 5 years of teaching experience | Top notch Educator for competitive programming and Software design/development at different edtech companies. Students placed in FAANG, Zomato, Axis, Microsoft and other top product based companies.",
+    "social": { "linkedin": "https://www.linkedin.com/in/singhsanket143/" }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "63a0c12f80762853708f4967": {
+    "img": {
+      "source": "bucket",
+      "link": "63a0c12f80762853708f4967.jpg"
+    },
+    "name": "Vishwa Mohan",
+    "email": "vishwa@pw.live",
+    "description": "Staff Software Engineer at LinkedIn ( Ex - WalmartLabs, Paypal, Oracle ) - IIT BHU Graduate - 14 years of teaching experience - Top educator at almost all the edTech companies in India and abroad on the topics including Software Engineering, Data Science, Big Data, AI/ML etc - Mentored 20,000+ professional and students till date - Students at almost every company - including FAANG companies",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/vishwa-mohan/",
+      "youtube": ""
+    }
+  },
+  "628f5d42696079376b3b6f5c": {
+    "img": {
+      "source": "bucket",
+      "link": "628f5d42696079376b3b6f5c.jpg"
+    },
+    "email": "navin@ineuron.ai",
+    "name": "Navin Reddy",
+    "description": "I am  Corporate Java trainer. Since past few years successfully trained many professionals at JP Morgan, Accenture, Polaris and L&T infotech. My youtube channel \"Telusko\" presently has 1.7 million subscribers. Passionate about Java Technology for over a decade and moved on as a corporate trainer. I am certified blockchain developer and Currently, building Applications running on Blockchain (dapps). ",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/navinreddy20/",
+      "youtube": "https://www.youtube.com/c/Telusko"
+    }
+  },
+  "6295fee0696079730c3b94b4": {
+    "img": {
+      "source": "bucket",
+      "link": "6295fee0696079730c3b94b4.jpg"
+    },
+    "email": "syedhyder@ineuron.ai ",
+    "name": "Hyder Abbas",
+    "description": "Corporate Software Development Trainer with a demonstrated track record of success in the IT and Ed-tech industries. I started my career as a software developer and have since taught Java, Python, Javascript to hundreds of IT enthusiasts, including corporate professionals, throughout the years.I have been developing software for over 6 years.",
+    "social": {
+      "linkedin": "https://linkedin.com/in/hyder-abbas-081820150"
+    }
+  },
+  "63a0c1b480762843af8f496a": {
+    "img": {
+      "source": "bucket",
+      "link": "63a0c1b480762843af8f496a.jpg"
+    },
+    "name": "Manvi Tyagi",
+    "email": "manvi@pw.live",
+    "description": "Software Engineer at Twitter (Ex-SWE Intern at Paypal, Innovaccer) - 3+ years of teaching experience in the Software Domain - Founder of non-profit community - Girl Code It, Impacted ~20k beginners in tech",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/manvi-tyagi-108464147/",
+      "youtube": ""
+    }
+  },
+  "618964776a74763ac407df8b": {
+    "img": {
+      "source": "bucket",
+      "link": "Priya Bhatia.png"
+    },
+    "name": "Priya Bhatia",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/bhatia-priya/",
+      "instagram": "https://www.instagram.com/priyabhatia6971/",
+      "facebook": "https://www.facebook.com/priya.bhatia.37604",
+      "github": "https://github.com/priya6971"
+    },
+    "email": "priya.bhatia6971@gmail.com",
+    "description": "Expertise in data structure competitive programing and solving an analytical problems and implementing data structure algorithm in multiple programing language. I have done my M.Tech in Artificial Intelligence at IIT Hyderabad and have an experience of implementation in multiple projects."
+  }
+}

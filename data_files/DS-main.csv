@@ -1,0 +1,180 @@
+id,title,parts,n_parts,date
+63a2eb42889943f00c7eb173,Course Introduction,"['Course Induction', 'Course Overview And Dashboard Description', 'Introduction Of Data Industry', 'Lab Introduction', 'Support System Introduction', 'Community Introduction']",6,28-Jan-2023
+63a2eb4288994306ac7eb17a,Python Basic,"['Introduction Of Python And Comparison With Other Programming Language', 'Python Objects, Number & Booleans, Strings.', 'Container Objects, Mutability Of Objects']",3,29-Jan-2023
+63a2eb428899437b3e7eb17e,Python Basic,"[""Operators - Arithmetic, Bitwise, Comparison And Assignment Operators, Operator's Precedence And Associativity"", 'Conditions (If Else, If-Elif-Else), Loops (While, For)', 'Break And Continue Statement And Range Function']",3,30-Jan-2023
+63a2eb4288994384a87eb182,String Objects,"['Basic Data Structure In Python', 'String Object Basics', 'String Inbuilt Methods', 'Splitting And Joining Strings', 'String Format Functions']",5,31-Jan-2023
+63a2eb42889943847b7eb188,List Object Basics,"['List Methods', 'List As Stack And Queues', 'List Comprehensions']",3,1-Feb-2023
+63a2eb4288994331957eb18c,"Tuples, Set, Dictionaries & Its Function","['Tuples, Sets & Dictionary Object Methods', 'Dictionary Comprehensions', 'Dictionary View Objects']",3,2-Feb-2023
+63a2eb42889943121a7eb190,Function,"['Functions Basics, Parameter Passing, Iterators.', 'Generator Functions']",2,3-Feb-2023
+63a2eb42889943295b7eb193,Function,"['Lambda Functions', 'Map, Reduce, Filter Functions.']",2,4-Feb-2023
+63a2eb4288994377787eb196,Oops Concepts,"['Oops Basic Concepts.', 'Creating Classes', 'Pillars Of Oops', 'Inheritance']",4,5-Feb-2023
+63a2eb4288994342607eb19b,Oops Concepts,['Polymorphism'],1,6-Feb-2023
+63a2eb428899431bc17eb19d,Oops Concepts,['Encapsulation'],1,7-Feb-2023
+63a2eb4288994343be7eb19f,Oops Concepts,['Abstraction'],1,8-Feb-2023
+63a2eb42889943a86d7eb1a1,Oops Concepts,"['Decorator', 'Class Methods And Static Methods', 'Special (Magic/Dunder) Methods', 'Property Decorators - Getters, Setters, And Deletes']",4,9-Feb-2023
+63a2eb4288994341b97eb1a6,Files,"['Working With Files', 'Reading And Writing Files', 'Buffered Read And Write']",3,10-Feb-2023
+63a2eb4288994322e67eb1aa,Files,"['Other File Methods.', 'Logging, Debugger', 'Modules And Import Statements']",3,11-Feb-2023
+63a2eb4288994385af7eb1ae,Exception Handling,"['Exceptions Handling With Try-Except', 'Custom Exception Handling']",2,12-Feb-2023
+63a2eb428899436fa37eb1b1,Exception Handling,"['List Of General Use Exceptions', 'Best Practice Exception Handling']",2,13-Feb-2023
+63a2eb428899430a927eb1b4,Memory Management,['Multithreading'],1,14-Feb-2023
+63a2eb4288994393907eb1b6,Memory Management,['Multiprocessing'],1,15-Feb-2023
+63a2eb42889943923a7eb1b8,Database,['Mysql'],1,16-Feb-2023
+63a2eb428899432f4b7eb1ba,Database,['Mongo Db'],1,17-Feb-2023
+63a2eb4288994315de7eb1bc,Web Api,"['What Is Web Api', 'Difference B/W Api And Web Api', 'Rest And Soap Architecture', 'Restful Services']",4,18-Feb-2023
+63a2eb4288994379597eb1c1,Flask,"['Flask Introduction', 'Flask Application', 'Open Link Flask', 'App Routing Flask', 'Url Building Flask']",5,19-Feb-2023
+63a2eb42889943a4437eb1c7,Flask,"['Http Methods Flask', 'Templates Flask', 'Flask Project: Food App', 'Postman']",4,20-Feb-2023
+63a2eb4288994382f97eb1cc,Pandas Basic,"['Python Pandas - Series', 'Python Pandas – Data Frame', 'Python Pandas – Panel']",3,21-Feb-2023
+63a2eb42889943c09a7eb1d0,Pandas Basic,"['Python Pandas - Basic Functionality', 'Reading Data From Different File Systems']",2,22-Feb-2023
+63a2eb4288994374bf7eb1d3,Pandas Advance,"['Python Pandas – Re Indexing Python', 'Pandas – Iteration', 'Python Pandas – Sorting.', 'Working With Text Data Options & Customization']",4,23-Feb-2023
+63a2eb428899432bc37eb1d8,Pandas Advance,"['Indexing & Selecting', 'Data Statistical Functions', 'Python Pandas - Window Functions', 'Python Pandas - Date Functionality']",4,24-Feb-2023
+63a2eb4288994356f97eb1dd,Pandas Advance,"['Python Pandas –Time Delta', 'Python Pandas - Categorical Data', 'Python Pandas – Visualization', 'Python Pandas - Tools']",4,25-Feb-2023
+63a2eb428899436e7f7eb1e2,Python Numpy,"['Numpy - Nd Array Object.', 'Numpy - Data Types.', 'Numpy - Array Attributes.', 'Numpy - Array Creation Routines.', 'Numpy - Array From Existing.']",5,26-Feb-2023
+63a2eb4288994309ef7eb1e8,Python Numpy,"['Data Array From Numerical Ranges.', 'Numpy - Indexing & Slicing.', 'Numpy – Advanced Indexing.', 'Numpy – Broadcasting.', 'Numpy - Iterating Over Array.']",5,27-Feb-2023
+63a2eb428899439b947eb1ee,Python Numpy,"['Numpy - Array Manipulation.', 'Numpy - Binary Operators.', 'Numpy - String Functions.', 'Numpy - Mathematical Functions.', 'Numpy - Arithmetic Operations.', 'Numpy - Statistical Functions.']",6,28-Feb-2023
+63a2eb42889943492c7eb1f5,Python Numpy,"['Sort, Search & Counting Functions.', 'Numpy - Byte Swapping.', 'Numpy - Copies &Views.', 'Numpy - Matrix Library.', 'Numpy - Linear Algebra']",5,1-Mar-2023
+63a2eb4288994331e57eb1fb,Visualization,['Matplotlib'],1,2-Mar-2023
+63a2eb428899436cdb7eb1fd,Visualization,['Seaborn'],1,3-Mar-2023
+63a2eb428899436fbe7eb1ff,Visualization,['Plotly'],1,4-Mar-2023
+63a2eb42889943119a7eb201,Visualization,['Bokeh'],1,5-Mar-2023
+63a2eb42889943e7c17eb203,Statistics Basic,"['Introduction To Basic Statistics Terms', 'Types Of Statistics', 'Types Of Data', 'Levels Of Measurement']",4,6-Mar-2023
+63a2eb42889943071e7eb208,Statistics Basic,"['Measures Of Central Tendency', 'Measures Of Dispersion', 'Random Variables', 'Set', 'Skewness', 'Covariance And Correlation']",6,7-Mar-2023
+63a2eb4288994369ff7eb20f,Statistics Advance,"['Probability Density/Distribution Function', 'Types Of The Probability Distribution', 'Binomial Distribution', 'Poisson Distribution', 'Normal Distribution (Gaussian Distribution)']",5,8-Mar-2023
+63a2eb42889943f6237eb215,Statistics Advance,"['Probability Density Function And Mass Function', 'Cumulative Density Function', 'Examples Of Normal Distribution', 'Bernoulli Distribution', 'Uniform Distribution', 'Z Stats', 'Central Limit Theorem']",7,9-Mar-2023
+63a2eb4288994379117eb21d,Statistics Advance,"['Estimation', 'A Hypothesis', 'Hypothesis Testing’S Mechanism', 'P-Value', 'T-Stats', 'Student T Distribution']",6,10-Mar-2023
+63a2eb428899433e1c7eb224,Statistics Advance,"['T-Stats Vs. Z-Stats: Overview', 'When To Use A T-Tests Vs. Z-Tests', 'Type 1 & Type 2 Error', 'Bayes Statistics (Bayes Theorem)', 'Confidence Interval(Ci)', 'Confidence Intervals And The Margin Of Error']",6,11-Mar-2023
+63a2eb428899437b7e7eb22b,Statistics Advance,"['Interpreting Confidence Levels And Confidence Intervals', 'Chi-Square Test', 'Chi-Square Distribution Using Python', 'Chi-Square For Goodness Of Fit Test', 'When To Use Which Statistical Distribution?']",5,12-Mar-2023
+63a2eb4288994365ac7eb231,Statistics Advance,"['Analysis Of Variance (Anova)', 'Assumptions To Use Anova', 'Anova Three Type', 'Partitioning Of Variance In The Anova', 'Calculating Using Python']",5,13-Mar-2023
+63a2eb42889943eca97eb237,Statistics Advance,"['F-Distribution', 'F-Test (Variance Ratio Test)', 'Determining The Values Of F', 'F Distribution Using Python']",4,14-Mar-2023
+63a2eb4288994323317eb23c,Introduction To Machine Learning,"['Ai Vs Ml Vs Dl Vs Ds', 'Supervised, Unsupervised, Semi-Supervised, Reinforcement Learning', 'Train, Test, Validation Split']",3,15-Mar-2023
+63a2eb42889943397b7eb240,Introduction To Machine Learning,"['Performance', 'Overfitting, Under Fitting', 'Bias Vs Variance']",3,16-Mar-2023
+63a2eb4288994345017eb244,Feature Engineering,"['Handling Missing Data', 'Handling Imbalanced Data', 'Up-Sampling', 'Down-Sampling', 'Smote', 'Data Interpolation', 'Handling Outliers']",7,17-Mar-2023
+63a2eb4288994394f87eb24c,Feature Engineering,"['Filter Method', 'Wrapper Method', 'Embedded Methods', 'Feature Scaling', 'Standardization', 'Mean Normalization']",6,18-Mar-2023
+63a2eb42889943eb737eb253,Feature Engineering,"['Min-Max Scaling', 'Unit Vector', 'Feature Extraction', 'Pca (Principle Component Analysis)']",4,19-Mar-2023
+63a2eb42889943ca437eb258,Feature Engineering,"['Data Encoding', 'Nominal Encoding', 'One Hot Encoding', 'One Hot Encoding With Multiple Categories', 'Mean Encoding']",5,20-Mar-2023
+63a2eb4288994371d67eb25e,Feature Engineering,"['Ordinal Encoding', 'Label Encoding', 'Target Guided Ordinal Encoding', 'Covariance', 'Correlation Check']",5,21-Mar-2023
+63a2eb4288994357737eb264,Feature Engineering,"['Pearson Correlation Coefficient', 'Spearman’S Rank Correlation', 'Vif']",3,22-Mar-2023
+63a2eb428899438bdd7eb268,Feature Selection,"['Feature Selection', 'Recursive Feature Elimination', 'Backward Elimination', 'Forward Elimination']",4,23-Mar-2023
+63a2eb428899435ca07eb26d,Exploratory Data Analysis,"['Feature Engineering And Selection.', 'Analyzing Bike Sharing Trends.', 'Analyzing Movie Reviews Sentiment.', 'Customer Segmentation And Effective Cross Selling.']",4,24-Mar-2023
+63a2eb428899432eef7eb272,Exploratory Data Analysis,"['Analyzing Wine Types And Quality.', 'Analyzing Music Trends And Recommendations.', 'Forecasting Stock And Commodity Prices']",3,25-Mar-2023
+63a2eb4288994360407eb276,Regression,"['Linear Regression', 'Gradient Descent', 'Multiple Linear Regression', 'Polynomial Regression']",4,26-Mar-2023
+63a2eb428899439e767eb27b,Regression,"['R Square And Adjusted R Square', 'Rmse, Mse, Mae Comparison', 'Regularized Linear Models']",3,27-Mar-2023
+63a2eb428899437a9c7eb27f,Regression,['Ridge Regression'],1,28-Mar-2023
+63a2eb428899437c297eb281,Regression,['Lasso Regression'],1,29-Mar-2023
+63a2eb4288994356a37eb283,Regression,['Elastic Net'],1,30-Mar-2023
+63a2eb4288994340437eb285,Regression,['Complete End-To-End Project With Deployment On Cloud And Ui'],1,31-Mar-2023
+63a2eb428899432d667eb287,Logistics Regression,"['Logistics Regression In-Depth Intuition', 'In-Depth Mathematical Intuition', 'In-Depth Geometrical Intuition', 'Hyper Parameter Tuning']",4,1-April-2023
+63a2eb4288994325227eb28c,Logistics Regression,"['Grid Search Cv', 'Randomize Search Cv', 'Data Leakage', 'Confusion Matrix']",4,2-April-2023
+63a2eb428899438d467eb291,Logistics Regression,"['Precision, Recall, F1 Score, Roc, Auc', 'Best Metric Selection', 'Multiclass Classification In Lr', 'Complete End-To-End Project With Deployment In Multi-Cloud Platform']",4,3-April-2023
+63a2eb42889943b6377eb296,Decision Tree,"['Decision Tree Classifier', 'In-Depth Mathematical Intuition', 'In-Depth Geometrical Intuition', 'Confusion Matrix', 'Precision, Recall,  F1 Score, Roc, Auc', 'Best Metric Selection']",6,4-April-2023
+63a2eb4288994309737eb29d,Decision Tree,"['Decision Tree Repressor', 'In-Depth Mathematical Intuition', 'In-Depth Geometrical Intuition', 'Performance Metrics', 'Complete End-To-End Project With Deployment In Multi Cloud Platform']",5,5-April-2023
+63a2eb428899434e277eb2a3,Support Vector Machines,"['Linear Svm Classification', 'In-Depth Mathematical Intuition', 'In-Depth Geometrical Intuition', 'Soft Margin Classification', 'Nonlinear Svm Classification']",5,6-April-2023
+63a2eb428899436b497eb2a9,Support Vector Machines,"['Polynomial Kernel', 'Gaussian, Rbf Kernel', 'Data Leakage', 'Confusion Matrix', 'Precision, Recall, F1 Score , Roc, Auc']",5,7-April-2023
+63a2eb428899435a827eb2af,Support Vector Machines,"['Best Metric Selection', 'Svm Regression', 'In-Depth Mathematical Intuition', 'In-Depth Geometrical Intuition', 'Complete End-To-End Project With Deployment']",5,8-April-2023
+63a2eb42889943b2ec7eb2b5,Naïve Bayes,"['Bayes Theorem', 'Multinomial Naïve Bayes', 'Gaussian Naïve Bayes', 'Various Type Of Bayes Theorem And Its Intuition']",4,9-April-2023
+63a2eb42889943468d7eb2ba,Naïve Bayes,"['Confusion Matrix', 'Precision, Recall, F1 Score, Roc, Auc', 'Best Metric Selection', 'Complete End-To-End Project With Deployment']",4,10-April-2023
+63a2eb428899434d437eb2bf,Ensemble Techniques And Its Types,"['Definition Of Ensemble Techniques', 'Bagging Technique', 'Bootstrap Aggregation']",3,11-April-2023
+63a2eb428899439c627eb2c3,Ensemble Techniques And Its Types,['Random Forest (Bagging Technique)'],1,12-April-2023
+63a2eb4288994357a37eb2c5,Ensemble Techniques And Its Types,['Random Forest Repressor'],1,13-April-2023
+63a2eb4288994309307eb2c7,Ensemble Techniques And Its Types,['Random Forest Classifier'],1,14-April-2023
+63a2eb42889943db767eb2c9,Ensemble Techniques And Its Types,['Complete End-To-End Project With Deployment'],1,15-April-2023
+63a2eb42889943fccc7eb2cb,Boosting,"['Boosting Technique', 'Ada Boost']",2,16-April-2023
+63a2eb42889943aa8a7eb2ce,Boosting,['Gradient Boost'],1,17-April-2023
+63a2eb42889943ec207eb2d0,Boosting,['Xgboost'],1,18-April-2023
+63a2eb42889943a3957eb2d2,Boosting,['Complete End-To-End Project With Deployment'],1,19-April-2023
+63a2eb4288994302957eb2d4,KNN,['Knn Classifier'],1,20-April-2023
+63a2eb428899436d757eb2d6,KNN,['Knn Repressor'],1,21-April-2023
+63a2eb428899434cb47eb2d8,KNN,"['Variants Of Knn', 'Brute Force Knn', 'K-Dimension Tree', 'Ball Tree', 'Complete End-To-End Project With Deployment']",5,22-April-2023
+63a2eb42889943a8a07eb2de,Dimensionality Reduction,"['The Curse Of Dimensionality', 'Dimensionality Reduction Technique']",2,23-April-2023
+63a2eb42889943318e7eb2e1,Dimensionality Reduction,"['PCA (Principle Component Analysis)', 'Mathematics Behind PCA', 'Scree Plots']",3,24-April-2023
+63a2eb4288994369517eb2e5,Dimensionality Reduction,['Eigen-Decomposition Approach'],1,25-April-2023
+63a2eb42889943fe037eb2e7,Dimensionality Reduction,['Practicals'],1,26-April-2023
+63a2eb42889943200c7eb2e9,Clustering,"['Clustering And Their Types', 'K-Means Clustering', 'K-Means++', 'Batch K-Means']",4,27-April-2023
+63a2eb42889943f8567eb2ee,Clustering,['Hierarchical Clustering'],1,28-April-2023
+63a2eb4288994370407eb2f0,Clustering,['Dbscan'],1,29-April-2023
+63a2eb4288994384467eb2f2,Clustering,"['Evaluation Of Clustering', 'Homogeneity, Completeness, And V-Measure', 'Silhouette Coefficient', 'Davies-Bouldin Index']",4,30-April-2023
+63a2eb42889943e99f7eb2f7,Clustering,"['Contingency Matrix', 'Pair Confusion Matrix', 'Extrinsic Measure', 'Intrinsic Measure', 'Complete End-To-End Project With Deployment']",5,1-May-2023
+63a2eb42889943acdb7eb2fd,Anomaly Detection,"['Anomaly Detection Types', 'Anomaly Detection Applications', 'Isolation Forest Anomaly Detection Algorithm', 'Density-Based Anomaly Detection (Local Outlier Factor) Algorithm']",4,2-May-2023
+63a2eb42889943524d7eb302,Anomaly Detection,"['Support Vector Machine Anomaly Detection Algorithm', 'Dbscan Algorithm For Anomaly Detection', 'Complete End-To-End Project With Deployment']",3,3-May-2023
+63a2eb4288994305ed7eb306,Time Series,"['What Is A Time Series?', 'Old Techniques', 'Arima', 'Acf And Pacf']",4,4-May-2023
+63a2eb428899433bc17eb30b,Time Series,"['Time-Dependent Seasonal Components.', 'Autoregressive (Ar),', 'Moving Average (Ma) And Mixed Arma- Modeler.']",3,5-May-2023
+63a2eb42889943f37b7eb30f,Neural Network A Simple Perception,"['Neural Network Overview And Its Use Case.', 'Detail Mathematical Explanation', 'Various Neural Network Architect Overview.', 'Use Case Of Neural Network In Nlp And Computer Vision.']",4,16-May-2023
+63a2eb42889943461e7eb314,Neural Network A Simple Perception,['Activation Function -All Name'],1,17-May-2023
+63a2eb4288994356ee7eb316,Neural Network A Simple Perception,['Multilayer Network.'],1,18-May-2023
+63a2eb42889943fc5b7eb318,Neural Network A Simple Perception,['Loss Functions. - All 10'],1,19-May-2023
+63a2eb4288994316697eb31a,Neural Network A Simple Perception,['The Learning Mechanism.'],1,20-May-2023
+63a2eb428899436d1d7eb31c,Neural Network A Simple Perception,['Optimizers. - All 10'],1,21-May-2023
+63a2eb4288994316577eb31e,Neural Network A Simple Perception,['Forward And Backward Propagation.'],1,22-May-2023
+63a2eb4288994315b07eb320,Neural Network A Simple Perception,['Weight Initialization Technique'],1,23-May-2023
+63a2eb42889943babb7eb322,Neural Network A Simple Perception,"['Vanishing Gradient Problem', 'Exploding Gradient Problem', 'Visualization Of Neural Network']",3,24-May-2023
+63a2eb4288994364447eb326,Tensorflow Installation Environment Setup For Deep Learning,"['Colab Pro Setup', 'TensorFlow Installation 2.0 .', 'TensorFlow 2.0 Function.']",3,25-May-2023
+63a2eb42889943c8c07eb32a,Tensorflow Installation Environment Setup For Deep Learning,['TensorFlow 2.0 Neural Network Creation.'],1,26-May-2023
+63a2eb42889943354d7eb32c,Tensorflow Network Building & Tracking,['Mini Project In TensorFlow.'],1,26-May-2023
+63a2eb428899435a817eb32e,Tensorflow Network Building & Tracking,"['Tensor space', 'Tensor board Integration', 'TensorFlow Playground', 'Netron']",4,27-May-2023
+63a2eb4288994339f87eb333,Pytorch Fundamentals,"['Pytorch Installation.', 'Pytorch Functional Overview.']",2,28-May-2023
+63a2eb428899433f977eb336,Pytorch Fundamentals,['Pytorch Neural Network Creation.'],1,29-May-2023
+63a2eb428899430b9e7eb338,Convolution Neural Networks,['Cnn Fundamentals'],1,30-May-2023
+63a2eb428899433aa17eb33a,Convolution Neural Networks,"['Cnn Explained In Detail - Cnnexplainer, Tensor space']",1,31-May-2023
+63a2eb428899431d187eb33c,Convolution Neural Networks,['Various Cnn Based Architecture'],1,1-Jun-2023
+63a2eb42889943a75c7eb33e,Convolution Neural Networks,['Training Cnn From Scratch'],1,2-Jun-2023
+63a2eb4288994319037eb340,Convolution Neural Networks,['Building Webapps For Cnn'],1,3-Jun-2023
+63a2eb4288994396497eb342,Convolution Neural Networks,"['Deployment In Aws, Azure & Google Cloud']",1,4-Jun-2023
+63a2eb4288994307b57eb344,Image Classification Architectures,"['Various Cnn Architecture With Research Paper And Mathematics', 'Lenet-5 Variants With Research Paper And Practical']",2,5-Jun-2023
+63a2eb42889943c8d27eb347,Image Classification Architectures,['Alexnet Variants With Research Paper And Practical'],1,6-Jun-2023
+63a2eb4288994315e57eb349,Image Classification Architectures,['Googlenet Variants With Research Paper And Practical'],1,7-Jun-2023
+63a2eb42889943009f7eb34b,Image Classification Architectures,['Transfer Learning'],1,8-Jun-2023
+63a2eb428899436dc97eb34d,Image Classification Architectures,['Vggnet Variants With Research Paper And Practical'],1,9-Jun-2023
+63a2eb428899433c507eb34f,Image Classification Architectures,['Resnet Variants With Research Paper And Practical'],1,10-Jun-2023
+63a2eb428899430d927eb351,Image Classification Architectures,['Inception Net Variants With Research Paper And Practical'],1,11-Jun-2023
+63a2eb428899437ee57eb353,Object Detection Architectures RCNN Family,['FASTER RCNN'],1,12-Jun-2023
+63a2eb42889943c1177eb355,Object Detection Architectures RCNN Family,['YOLO'],1,13-Jun-2023
+63a2eb428899435c327eb357,Yolo V5 Custom Training,"['Introduction To Yolov5', 'Installation Of Yolov5', 'Data Annotation & Preparation', 'Download Data & Configure Path']",4,14-Jun-2023
+63a2eb4288994332497eb35c,Yolo V5 Custom Training,"['Download & Configure Pretrained Weight', 'Start Model Training', 'Evaluation Curves Yolov5', 'Inferencing Using Trained Model']",4,15-Jun-2023
+63a2eb4288994374767eb361,Yolo V6 Custom Training,"['Introduction To Yolov6', 'Installation Of Yolov6', 'Data Annotation & Preparation', 'Download Data & Configure Path']",4,16-Jun-2023
+63a2eb42889943649d7eb366,Yolo V6 Custom Training,"['Download & Configure Pretrained Weight', 'Start Model Training', 'Evaluation Curves Yolov6', 'Inferencing Using Trained Model']",4,17-Jun-2023
+63a2eb4288994377957eb36b,Yolo V7 Custom Training,"['Introduction To Yolov7', 'Installation Of Yolov7', 'Data Annotation & Preparation', 'Download Data & Configure Path']",4,18-Jun-2023
+63a2eb428899431ee47eb370,Yolo V7 Custom Training,"['Download & Configure Pretrained Weight', 'Start Model Training', 'Evaluation Curves Yolov7', 'Inferencing Using Trained Model']",4,19-Jun-2023
+63a2eb42889943f8637eb375,Detecron2 Custom Training,"['Introduction To Detecron2', 'Installation Of Detecron2', 'Data Annotation & Preparation', 'Download Data & Configure Path']",4,20-Jun-2023
+63a2eb428899434b3f7eb37a,Detecron2 Custom Training,"['Download & Configure Pretrained Weight', 'Start Model Training', 'Evaluation Curves Detecron2', 'Inferencing Using Trained Model']",4,21-Jun-2023
+63a2eb42889943c0c87eb37f,TFOD2 Custom Training,"['Introduction To TFOD2', 'Installation Of TFOD2', 'Data Annotation & Preparation', 'Download Data & Configure Path']",4,22-Jun-2023
+63a2eb428899432b3c7eb384,TFOD2 Custom Training,"['Download & Configure Pretrained Weight', 'Start Model Training', 'Evaluation Curves TFOD2', 'Inferencing Using Trained Model']",4,23-Jun-2023
+63a2eb4288994348fc7eb389,Image Segmentation,"['Scene Understanding', 'More To Detection', 'Need Accurate Results', 'Segmentation', 'Types Of Segmentation']",5,24-Jun-2023
+63a2eb428899439a317eb38f,Image Segmentation,"['Understanding Masks', 'Maskrcnn', 'From Bounding Box To Polygon Masks']",3,25-Jun-2023
+63a2eb428899433b4e7eb393,Image Segmentation,['Mask Rcnn Architecture'],1,26-Jun-2023
+63a2eb428899437be97eb395,Maskrcnn Practical With Detectron2,"['Introduction To Detectron2', 'Our Custom Dataset', 'Doing Annotations Or Labeling Data', 'Registering Dataset For Training']",4,27-Jun-2023
+63a2eb42889943f6de7eb39a,Maskrcnn Practical With Detectron2,"['Selection Of Pretrained Model From Model Zoo', ""Let's Start Training"", 'Stop Training Or Resume Training', 'Inferencing Using The Custom Trained Model In Colab', 'Evaluating The Model']",5,28-Jun-2023
+63a2eb428899431db27eb3a0,Face Recognition,"['What Is Face Recognition?', 'Evolution Of Face Recognition', 'Face Recognition Pipeline', 'Data Preprocessing', 'Face Detection', 'Face Alignment']",6,29-Jun-2023
+63a2eb428899431ba67eb3a7,Face Recognition,"['Face Identification', 'Exploring Face net', 'Exploring Mtcnn', 'Exploring Arc face']",4,30-Jun-2023
+63a2eb428899434e017eb3ac,Face Recognition Practicals,"['Data Preprocessing', 'Face Detection', 'Face Alignment', 'Face Identification', 'Combining All Pipelines', 'Building A Desktop App With Tkinter']",6,1-July-2023
+63a2eb42889943f7a37eb3b3,Object Tracking,['What Is Object Tracking?'],1,2-July-2023
+63a2eb4288994397c27eb3b5,Object Tracking,['Localization'],1,3-July-2023
+63a2eb428899433ba87eb3b7,Object Tracking,['Motion'],1,4-July-2023
+63a2eb4288994365097eb3b9,Object Tracking,['Flow Of Optics'],1,5-July-2023
+63a2eb42889943bb2f7eb3bb,Object Tracking,['Motion Vector'],1,6-July-2023
+63a2eb42889943833a7eb3bd,Object Tracking,['Tracking Features'],1,7-July-2023
+63a2eb4288994317bd7eb3bf,Object Tracking,['Exploring Deep Sort'],1,8-July-2023
+63a2eb4288994367397eb3c1,Object Tracking,['Bytetrack'],1,9-July-2023
+63a2eb4288994331f07eb3c3,Practicals Object Tracking With Detection,['Data Preprocessing'],1,10-July-2023
+63a2eb428899438d977eb3c5,Practicals Object Tracking With Detection,['Using Yolo For Detection'],1,11-July-2023
+63a2eb428899436d9a7eb3c7,Practicals Object Tracking With Detection,['Preparing Deep sort With Yolo'],1,12-July-2023
+63a2eb4288994370267eb3c9,Practicals Object Tracking With Detection,['Combining Pipelines For Tracking & Detection'],1,13-July-2023
+63a2eb4288994329697eb3cb,GANs,"['Introduction To Gans', 'Gan Architecture', 'Discriminator', 'Generator', 'Controllable Generation']",5,14-July-2023
+63a2eb4288994325e77eb3d1,GANs,"['Wgans', 'Dcgans', 'Stylegans', ""Gan Practical's Implementation""]",4,15-July-2023
+63a2eb428899434eda7eb3d6,NLP Introduction,"['Overview Computational Linguistics.', 'History Of Nlp.', 'Why Nlp', 'Use Of Nlp']",4,22-July-2023
+63a2eb428899434d547eb3db,Text Processing For NLP,"['Web Scrapping.', 'Text Processing', 'Understanding Regex', 'Text Normalization', 'Word Count.', 'Frequency Distribution']",6,23-July-2023
+63a2eb42889943c07f7eb3e2,Text Processing For NLP,"['String Tokenization', 'Annotator Creation', 'Sentence Processing', 'Lemmatization In Text Processing']",4,24-July-2023
+63a2eb428899431df47eb3e7,Text Processing For NLP,"['Word Embedding', 'Co-Occurrence Vectors', 'Word2Vec', 'Doc2Vec']",4,25-July-2023
+63a2eb428899431c5e7eb3ec,Useful NLP Libraries,['Nltk'],1,26-July-2023
+63a2eb42889943b8017eb3ee,Useful NLP Libraries,['Text Blob'],1,27-July-2023
+63a2eb42889943220b7eb3f0,Useful NLP Libraries,['Stanford Nlp'],1,28-July-2023
+63a2eb4288994309d97eb3f2,NLP Networks,['Recurrent Neural Networks.'],1,29-July-2023
+63a2eb42889943d9b07eb3f4,NLP Networks,['Long Short Term Memory (Lstm)'],1,30-July-2023
+63a2eb4288994338e27eb3f6,NLP Networks,['Bi Lstm'],1,31-July-2023
+63a2eb42889943d6ae7eb3f8,NLP Networks,['Stacked Lstm'],1,1-Aug-2023
+63a2eb428899433af57eb3fa,NLP Networks,['Gru Implementation'],1,2-Aug-2023
+63a2eb4288994320237eb3fc,Attention Based Model,"['Seq 2 Seq.', 'Encoders And Decoders.']",2,3-Aug-2023
+63a2eb4288994301eb7eb3ff,Attention Based Model,"['Attention Mechanism.', 'Attention Neural Networks', 'Self-Attention']",3,4-Aug-2023
+63a2eb42889943ce507eb403,Transfer Learning In NLP,"['Introduction To Transformers.', 'Bert Model.', 'Gpt2 Model.']",3,5-Aug-2023
+63a2eb428899436ddb7eb478,Resume Preparation For Jobs,"['Resume Templates For Freshers', 'Resume Templates For 2-4 Years Experience', 'Resume Templates For 5-8 Years Experience', 'Resume Templates For 10+ Years Experience']",4,16-Aug-2023
+63a2eb428899438c8d7eb47d,Interview Preparation,"['Interview Preparation For Python', 'Interview Preparation For Statistics', 'Interview Preparation For Machine Learning', 'Interview Preparation For Computer Vision', 'Interview Preparation For Nlp']",5,17-Aug-2023
+63a2eb4288994331e47eb483,Profile Building,"['GitHub', 'LinkedIn']",2,18-Aug-2023
+63a2eb428899432f047eb486,Apply For Jobs,"['Naukri', 'Monster']",2,19-Aug-2023
