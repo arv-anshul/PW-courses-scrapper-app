@@ -21,7 +21,7 @@ def scrape_pwskills(url: str, what: Literal['curriculum', 'projects']) -> pd.Dat
     soup = BeautifulSoup(page, 'html.parser')
 
     tag = soup.find_all('script')
-    js = json.loads(tag[20].get_text())
+    js = json.loads(tag[19].get_text())
     program = js['props']['pageProps']['data']['meta'][what]
 
     df = pd.DataFrame.from_dict(program, orient='index')
@@ -70,29 +70,57 @@ def enhance_my_data(data: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def fetch_instructor(url: str) -> list[str]:
+def fetch_instructor(url: str) -> dict[str, dict[str, str]]:
     """ Fetches instructors names from the given course url. """
     page = requests.get(url).content
     soup = BeautifulSoup(page, 'html.parser')
 
     tag = soup.find_all('script')
-    js = json.loads(tag[20].get_text())
+    js = json.loads(tag[19].get_text())
 
     program_instructors = js['props']['pageProps']['data']['meta']['instructors']
     instructors = js['props']['pageProps']['initialState']['init']['instructors']
 
-    instructors_name: list[str] = [instructors[i]['name']
-                                   for i in program_instructors]
-    return instructors_name
+    instructors_details: dict[str, dict[str, str]] = {
+        i: instructors[i] for i in program_instructors}
+    return instructors_details
 
 
-def fetch_overview(url: str) -> list[list[str]]:
+def fetch_overview(url: str) -> dict[str, list[str]]:
     """ Fetches learnning and features overview from the given course url. """
     page = requests.get(url).content
     soup = BeautifulSoup(page, 'html.parser')
 
     tag = soup.find_all('script')
-    js = json.loads(tag[20].get_text())
+    js = json.loads(tag[19].get_text())
     overview = js['props']['pageProps']['data']['meta']['overview']
 
-    return [overview['learn'], overview['features']]
+    return {
+        'learn': overview['learn'],
+        'features': overview['features']
+    }
+
+
+if __name__ == '__main__':
+    folder_path = './data_files/'
+    filename_list = ['DS', 'JAVA', 'WEB_DEV']
+    ex_name_list = ['-main.csv', '-projects.csv',
+                    '-instructor.json', '-overview.json']
+
+    for i in range(3):
+        break
+        df: pd.DataFrame = scrape_pwskills(URLS[i], 'curriculum')
+        projects: pd.DataFrame = scrape_pwskills(URLS[i], 'projects')
+        instructor = fetch_instructor(URLS[i])
+        overview = fetch_overview(URLS[i])
+
+        df_list: list[pd.DataFrame] = [df, projects]
+        json_list: list[dict] = [instructor, overview]
+
+        for j in range(2):
+            df_list[j].to_csv(folder_path + filename_list[i] +
+                              ex_name_list[j], index=False)
+
+        for k in range(2):
+            with open(folder_path + filename_list[i] + ex_name_list[k+2], 'w') as f:
+                json.dump(json_list[k], f, indent=2)
