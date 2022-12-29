@@ -1,7 +1,8 @@
+from typing import Literal
 import streamlit as st
 import pandas as pd
 import json
-from pwskills_scraper import URLS, fetch_overview, scrape_pwskills, enhance_my_data, fetch_instructor
+from pwskills_scraper import enhance_my_data
 
 # --- Page config ---
 st.set_page_config('PW Skills Courses', '📚', layout='wide')
@@ -53,10 +54,16 @@ def df_summary(df: pd.DataFrame):
         col4.metric('Start Date', last)
 
 
-def present_df(df: pd.DataFrame):
-    topic_list = df['start_date'].dt.strftime('%d %b') + ' - ' + df['title']
-    topic = str(st.selectbox('Select topic to see sub-topics',
-                             options=topic_list)).split(' - ')[1]
+def present_df(df: pd.DataFrame, what: Literal['curriculum', 'projects']):
+    if what == 'curriculum':
+        topic_list = df['start_date'].dt.strftime(
+            '%d %b') + ' - ' + df['title']
+        text = 'Select topic to see sub-topics'
+        topic = str(st.selectbox(text, options=topic_list)).split(' - ')[1]
+    else:
+        topic_list = df['title'].values
+        text = 'Select course topic to see related projects'
+        topic = str(st.selectbox(text, options=topic_list))
 
     parts = df.query('title==@topic')['parts'].values[0]
 
@@ -69,12 +76,25 @@ def present_df(df: pd.DataFrame):
 
     # Display the subparts as a unordered list
     st.write(f'### :notebook: {topic} - {len(parts)}')
+
+    if what == 'projects':
+        project_date = df.query('title==@topic')['date'].values[0]
+        st.write(
+            '#### &nbsp;', f'▶▶ Held by _{project_date}_.'.upper())
+
     for i in parts:
         st.write(f'&nbsp; &nbsp; ✒ &nbsp; {i}')
 
 
-def present_pr(pr: pd.DataFrame):
-    pass
+def pr_summary(pr: pd.DataFrame):
+    start = pr['date'].str.replace(r'[- 2023]', ' ', regex=True)[0]
+    last = pr['date'].str.replace(r'[- 2023]', ' ', regex=True)[len(pr)-1]
+    with st.expander('Summary', True):
+        col1, col2, col3, col4 = st.columns(4)
+        col1.metric('Type of Projects', len(pr))
+        col2.metric('No.of Projects', pr['n_parts'].sum())
+        col3.metric('First Project Date', start)
+        col4.metric('Last Project Date', last)
 
 
 # --- Sidebar ---
@@ -93,36 +113,8 @@ match choice1:
         choice2 = st.sidebar.selectbox(
             'Choose Course', ['Data Science', 'Web Development', 'Java'])
     case 'Free':
-        # choice2 = st.sidebar.selectbox('Choose Course', ['Data Science', 'Web Development', 'Java'])
         st.title('Free courses are not processed.')
 
-
-# url = ''
-# match choice2:
-#     case 'Data Science':
-#         url = URLS[0]
-#         df = scrape_pwskills(url, 'curriculum')
-#         df = enhance_my_data(df)
-#         pr = scrape_pwskills(url, 'projects')
-
-#         if st.sidebar.checkbox('Display Course Overview'):
-#             course_overview(url)
-#         if st.sidebar.checkbox('Display Course Modules'):
-#             df_summary(df)
-
-#     case 'Java':
-#         url = URLS[1]
-#         df = scrape_pwskills(url, 'curriculum')
-#         pr = scrape_pwskills(url, 'projects')
-
-#         course_overview(url)
-
-#     case 'Web Development':
-#         url = URLS[2]
-#         df = scrape_pwskills(url, 'curriculum')
-#         pr = scrape_pwskills(url, 'projects')
-
-#         course_overview(url)
 
 match choice2:
     case 'Data Science':
@@ -133,10 +125,18 @@ match choice2:
 
         if st.sidebar.checkbox('Display Course Overview', True):
             course_overview(fp_names[2], fp_names[3])
+
+        # --- Display Course Modules ---
         if st.sidebar.checkbox('Display Course Modules'):
             df_summary(df)
             st.write('---')
-            present_df(df)
+            present_df(df, 'curriculum')
+
+        # --- Display Course Projects ---
+        if st.sidebar.checkbox('Display Course Projects'):
+            pr_summary(pr)
+            st.write('---')
+            present_df(pr, 'projects')
 
     case 'Java':
         fp_names = [folder_path+filename_list[1]+j for j in ex_name_list]
@@ -144,12 +144,20 @@ match choice2:
         df = enhance_my_data(df)
         pr = pd.read_csv(fp_names[1])
 
-        if st.sidebar.checkbox('Display Course Overview'):
+        if st.sidebar.checkbox('Display Course Overview', True):
             course_overview(fp_names[2], fp_names[3])
+
+        # --- Display Course Modules ---
         if st.sidebar.checkbox('Display Course Modules'):
             df_summary(df)
             st.write('---')
-            present_df(df)
+            present_df(df, 'curriculum')
+
+        # --- Display Course Projects ---
+        if st.sidebar.checkbox('Display Course Projects'):
+            pr_summary(pr)
+            st.write('---')
+            present_df(pr, 'projects')
 
     case 'Web Development':
         fp_names = [folder_path+filename_list[2]+j for j in ex_name_list]
@@ -157,9 +165,17 @@ match choice2:
         df = enhance_my_data(df)
         pr = pd.read_csv(fp_names[1])
 
-        if st.sidebar.checkbox('Display Course Overview'):
+        if st.sidebar.checkbox('Display Course Overview', True):
             course_overview(fp_names[2], fp_names[3])
+
+        # --- Display Course Modules ---
         if st.sidebar.checkbox('Display Course Modules'):
             df_summary(df)
             st.write('---')
-            present_df(df)
+            present_df(df, 'curriculum')
+
+        # --- Display Course Projects ---
+        if st.sidebar.checkbox('Display Course Projects'):
+            pr_summary(pr)
+            st.write('---')
+            present_df(pr, 'projects')
