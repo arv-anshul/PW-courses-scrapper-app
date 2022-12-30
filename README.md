@@ -33,8 +33,8 @@ streamlit run app.py
 ```
 
 3. Made a `streamlit app` as `app.py` which displays each course information as `module` with its parts and sub-parts.
-
 4. Now, it also shows the projects related to each course and their parts.
+5. Optimizes the code writting after making of the app.
 
 ---
 

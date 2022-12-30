@@ -116,66 +116,31 @@ match choice1:
         st.title('Free courses are not processed.')
 
 
+# Getting all filenames for respective course selection from the user
+fp_names: list[str] = []
 match choice2:
     case 'Data Science':
         fp_names = [folder_path+filename_list[0]+j for j in ex_name_list]
-        df = pd.read_csv(fp_names[0])
-        df = enhance_my_data(df)
-        pr = pd.read_csv(fp_names[1])
-
-        if st.sidebar.checkbox('Display Course Overview', True):
-            course_overview(fp_names[2], fp_names[3])
-
-        # --- Display Course Modules ---
-        if st.sidebar.checkbox('Display Course Modules'):
-            df_summary(df)
-            st.write('---')
-            present_df(df, 'curriculum')
-
-        # --- Display Course Projects ---
-        if st.sidebar.checkbox('Display Course Projects'):
-            pr_summary(pr)
-            st.write('---')
-            present_df(pr, 'projects')
-
     case 'Java':
         fp_names = [folder_path+filename_list[1]+j for j in ex_name_list]
-        df = pd.read_csv(fp_names[0])
-        df = enhance_my_data(df)
-        pr = pd.read_csv(fp_names[1])
-
-        if st.sidebar.checkbox('Display Course Overview', True):
-            course_overview(fp_names[2], fp_names[3])
-
-        # --- Display Course Modules ---
-        if st.sidebar.checkbox('Display Course Modules'):
-            df_summary(df)
-            st.write('---')
-            present_df(df, 'curriculum')
-
-        # --- Display Course Projects ---
-        if st.sidebar.checkbox('Display Course Projects'):
-            pr_summary(pr)
-            st.write('---')
-            present_df(pr, 'projects')
-
     case 'Web Development':
         fp_names = [folder_path+filename_list[2]+j for j in ex_name_list]
-        df = pd.read_csv(fp_names[0])
-        df = enhance_my_data(df)
-        pr = pd.read_csv(fp_names[1])
 
-        if st.sidebar.checkbox('Display Course Overview', True):
-            course_overview(fp_names[2], fp_names[3])
+df = pd.read_csv(fp_names[0])
+df = enhance_my_data(df)
+pr = pd.read_csv(fp_names[1])
 
-        # --- Display Course Modules ---
-        if st.sidebar.checkbox('Display Course Modules'):
-            df_summary(df)
-            st.write('---')
-            present_df(df, 'curriculum')
+if st.sidebar.checkbox('Display Course Overview', True):
+    course_overview(fp_names[2], fp_names[3])
 
-        # --- Display Course Projects ---
-        if st.sidebar.checkbox('Display Course Projects'):
-            pr_summary(pr)
-            st.write('---')
-            present_df(pr, 'projects')
+# --- Display Course Modules ---
+if st.sidebar.checkbox('Display Course Modules'):
+    df_summary(df)
+    st.write('---')
+    present_df(df, 'curriculum')
+
+# --- Display Course Projects ---
+if st.sidebar.checkbox('Display Course Projects'):
+    pr_summary(pr)
+    st.write('---')
+    present_df(pr, 'projects')
