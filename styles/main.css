@@ -1,0 +1,15 @@
+#MainMenu {
+    visibility: hidden;
+}
+
+section.main div.block-container {
+    padding-top: 70px;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}

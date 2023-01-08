@@ -8,6 +8,11 @@ from pwskills_scraper import enhance_my_data
 st.set_page_config('PW Skills Courses', '📚', layout='wide')
 
 
+# --- LOAD CSS, PDF & PROFIL PIC ---
+with open('styles/main.css') as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
 def course_overview(inst_fp, ovv_fp):
     instructors = overview = dict()
 
@@ -115,32 +120,35 @@ match choice1:
     case 'Free':
         st.title('Free courses are not processed.')
 
+if choice1 == 'Paid':
+    # Getting all filenames for respective course selection from the user
+    fp_names: list[str] = []
+    match choice2:
+        case 'Data Science':
+            fp_names = [folder_path+filename_list[0]+j for j in ex_name_list]
+        case 'Java':
+            fp_names = [folder_path+filename_list[1]+j for j in ex_name_list]
+        case 'Web Development':
+            fp_names = [folder_path+filename_list[2]+j for j in ex_name_list]
 
-# Getting all filenames for respective course selection from the user
-fp_names: list[str] = []
-match choice2:
-    case 'Data Science':
-        fp_names = [folder_path+filename_list[0]+j for j in ex_name_list]
-    case 'Java':
-        fp_names = [folder_path+filename_list[1]+j for j in ex_name_list]
-    case 'Web Development':
-        fp_names = [folder_path+filename_list[2]+j for j in ex_name_list]
+    df = pd.read_csv(fp_names[0])
+    df = enhance_my_data(df)
+    pr = pd.read_csv(fp_names[1])
 
-df = pd.read_csv(fp_names[0])
-df = enhance_my_data(df)
-pr = pd.read_csv(fp_names[1])
+    todisplay = st.sidebar.radio('What do you want to known',
+                                 options=['Overview', 'Curriculum', 'Projects'])
 
-if st.sidebar.checkbox('Display Course Overview', True):
-    course_overview(fp_names[2], fp_names[3])
+    if todisplay == 'Overview':
+        course_overview(fp_names[2], fp_names[3])
 
-# --- Display Course Modules ---
-if st.sidebar.checkbox('Display Course Modules'):
-    df_summary(df)
-    st.write('---')
-    present_df(df, 'curriculum')
+    # --- Display Course Modules ---
+    if todisplay == 'Curriculum':
+        df_summary(df)
+        st.write('---')
+        present_df(df, 'curriculum')
 
-# --- Display Course Projects ---
-if st.sidebar.checkbox('Display Course Projects'):
-    pr_summary(pr)
-    st.write('---')
-    present_df(pr, 'projects')
+    # --- Display Course Projects ---
+    if todisplay == 'Projects':
+        pr_summary(pr)
+        st.write('---')
+        present_df(pr, 'projects')
