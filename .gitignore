@@ -1,4 +1,8 @@
 .DS_Store
 __pycache__/
 .ipynb_checkpoints/
-rough.ipynb
+.vscode/
+
+# Ignore Directory files
+__rough__.*
+new_data_files/
