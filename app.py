@@ -1,8 +1,13 @@
-from typing import Literal
-import streamlit as st
-import pandas as pd
+""" A PW Skills Courses Dashboard made with python and streamlit. """
+
 import json
-from pwskills_scraper import enhance_my_data
+import os
+from typing import Literal
+
+import pandas as pd
+import streamlit as st
+
+from pwskills_scraper import enhance_my_data, url_to_file
 
 # --- Page config ---
 st.set_page_config('PW Skills Courses', '📚', layout='wide')
@@ -31,10 +36,13 @@ def course_overview(inst_fp, ovv_fp):
                 ### :male-teacher: &nbsp; {meta['name']} \n
                 ##### E-mail : {meta['email']}
                 ''')
-            for key, value in meta['social'].items():
-                st.write(f""" 
-                ##### {key.capitalize()} : {value}
-                """)
+            try:
+                for key, value in meta['social'].items():
+                    st.write(f""" 
+                    ##### {key.capitalize()} : {value}
+                    """)
+            except:
+                pass
             '---'
 
     with st.expander(f'**:notebook: &nbsp; What you have learn from this Course - {len(overview["learn"])}**'):
@@ -102,21 +110,46 @@ def pr_summary(pr: pd.DataFrame):
         col4.metric('Last Project Date', last)
 
 
+def add_new_course():
+    st.title("Add New Course with it's URL")
+
+    # Take course_name and url by the user
+    course_name = st.text_input(
+        "Provide Course Name :violet[(in short 'Data Science' as 'DS')]")
+    url = st.text_input('Provide URL')
+
+    # Run the url_to_file function
+    if st.button('ADD'):
+        url_to_file(url, course_name)
+
+
 # --- Sidebar ---
 st.sidebar.title('PW Skills Courses')
+
+# Checkbox to add new course
+if st.sidebar.checkbox('Add New Course'):
+    add_new_course()
+    '---'
+
 choice1 = st.sidebar.selectbox('Choose Type', ['Paid', 'Free'])
 choice2 = ''
 
+
 # --- Variables ---
 folder_path = './data_files/'
-filename_list = ['DS', 'JAVA', 'WEB_DEV']
+
+# Check if new data is available
+new_files = {i.split('-')[0]
+             for i in os.listdir('new_data_files')} if os.path.isdir('new_data_files') else []
+
+filename_list = ['DS', 'JAVA', 'WEB_DEV'] + list(new_files)
 ex_name_list = ['-main.csv', '-projects.csv',
                 '-instructor.json', '-overview.json']
 
 match choice1:
     case 'Paid':
-        choice2 = st.sidebar.selectbox(
-            'Choose Course', ['Data Science', 'Web Development', 'Java'])
+        choice2 = st.sidebar.selectbox('Choose Course',
+                                       ['Data Science', 'Java', 'Web Development'] + list(new_files))
     case 'Free':
         st.title('Free courses are not processed.')
 
@@ -130,6 +163,10 @@ if choice1 == 'Paid':
             fp_names = [folder_path+filename_list[1]+j for j in ex_name_list]
         case 'Web Development':
             fp_names = [folder_path+filename_list[2]+j for j in ex_name_list]
+        case other:
+            index_ = filename_list.index(str(choice2))
+            fp_names = ['./new_data_files/'+filename_list[index_] +
+                        j for j in ex_name_list]
 
     df = pd.read_csv(fp_names[0])
     df = enhance_my_data(df)

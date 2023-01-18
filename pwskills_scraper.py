@@ -1,14 +1,22 @@
 """ Scraper for PWSkills courses to make a DataFrame. """
 
-import pandas as pd
-from bs4 import BeautifulSoup
-import requests
 import json
+import os
 from typing import Literal
 
-URLS = ['https://pwskills.com/course/Data-Science-masters',
-        'https://pwskills.com/course/Java-with-DSA-and-system-design',
-        'https://pwskills.com/course/Full-Stack-web-development']
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+
+
+def tag_no(script_tag) -> int:
+    """ This is tag number which signify the tag who cantains all the infos. """
+    for i, txt in enumerate(script_tag):
+        # I checked that the desired script has approx. 159060 length.
+        if len(txt.text) > 10e+4:    # 10e+4 == 1,00,000
+            return i
+    else:
+        return 20
 
 
 def scrape_pwskills(url: str, what: Literal['curriculum', 'projects']) -> pd.DataFrame:
@@ -21,7 +29,10 @@ def scrape_pwskills(url: str, what: Literal['curriculum', 'projects']) -> pd.Dat
     soup = BeautifulSoup(page, 'html.parser')
 
     tag = soup.find_all('script')
-    js = json.loads(tag[19].get_text())
+
+    # Give the tag number in which the json data is stored.
+    tagNo = tag_no(tag)
+    js = json.loads(tag[tagNo].get_text())
     program = js['props']['pageProps']['data']['meta'][what]
 
     df = pd.DataFrame.from_dict(program, orient='index')
@@ -76,7 +87,10 @@ def fetch_instructor(url: str) -> dict[str, dict[str, str]]:
     soup = BeautifulSoup(page, 'html.parser')
 
     tag = soup.find_all('script')
-    js = json.loads(tag[19].get_text())
+
+    # Give the tag number in which the json data is stored.
+    tagNo = tag_no(tag)
+    js = json.loads(tag[tagNo].get_text())
 
     program_instructors = js['props']['pageProps']['data']['meta']['instructors']
     instructors = js['props']['pageProps']['initialState']['init']['instructors']
@@ -92,7 +106,10 @@ def fetch_overview(url: str) -> dict[str, list[str]]:
     soup = BeautifulSoup(page, 'html.parser')
 
     tag = soup.find_all('script')
-    js = json.loads(tag[19].get_text())
+
+    # Give the tag number in which the json data is stored.
+    tagNo = tag_no(tag)
+    js = json.loads(tag[tagNo].get_text())
     overview = js['props']['pageProps']['data']['meta']['overview']
 
     return {
@@ -101,26 +118,31 @@ def fetch_overview(url: str) -> dict[str, list[str]]:
     }
 
 
-if __name__ == '__main__':
-    folder_path = './data_files/'
-    filename_list = ['DS', 'JAVA', 'WEB_DEV']
+def url_to_file(url: str, course_name: str) -> None:
+    """ Add another PW Skills course by providing its `url` and `course_name` as arguments. """
+
+    folder_path = './new_data_files/'
+    course_name = course_name.upper()
     ex_name_list = ['-main.csv', '-projects.csv',
                     '-instructor.json', '-overview.json']
 
-    for i in range(3):
-        break
-        df: pd.DataFrame = scrape_pwskills(URLS[i], 'curriculum')
-        projects: pd.DataFrame = scrape_pwskills(URLS[i], 'projects')
-        instructor = fetch_instructor(URLS[i])
-        overview = fetch_overview(URLS[i])
+    # All DataFrames
+    df: pd.DataFrame = scrape_pwskills(url, 'curriculum')
+    projects: pd.DataFrame = scrape_pwskills(url, 'projects')
+    instructor = fetch_instructor(url)
+    overview = fetch_overview(url)
 
-        df_list: list[pd.DataFrame] = [df, projects]
-        json_list: list[dict] = [instructor, overview]
+    df_list: list[pd.DataFrame] = [df, projects]
+    json_list: list[dict] = [instructor, overview]
 
-        for j in range(2):
-            df_list[j].to_csv(folder_path + filename_list[i] +
-                              ex_name_list[j], index=False)
+    # Create a new directory for new data files
+    if not os.path.isdir('new_data_files'):
+        os.mkdir('new_data_files')
 
-        for k in range(2):
-            with open(folder_path + filename_list[i] + ex_name_list[k+2], 'w') as f:
-                json.dump(json_list[k], f, indent=2)
+    for j in range(2):
+        df_list[j].to_csv(folder_path + course_name + ex_name_list[j],
+                          index=False)
+
+    for k in range(2):
+        with open(folder_path + course_name + ex_name_list[k+2], 'w') as f:
+            json.dump(json_list[k], f, indent=2)
